@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-11-15T18:32:47.636247+00:00",
+  "code_revision": "unknown",
+  "image_dataset": {
+    "version": "v1_20261115",
+    "total_images": 1546,
+    "num_classes": 30,
+    "malawian_images": 211,
+    "malawian_share_pct": 13.65,
+    "country_counts": {
+      "Malawi": 211,
+      "unreported": 1335
+    },
+    "source_counts": {
+      "gbif_malawi": 41,
+      "inaturalist": 634,
+      "inaturalist_malawi": 71,
+      "madiphs_ckan_pictorial": 92,
+      "moa_malawi_faw_pictures": 7,
+      "unreported": 701
+    },
+    "licence_counts": {
+      "CC BY-NC (MaDiPHS / MoA Malawi)": 7,
+      "Creative Commons Attribution Share-Alike": 92,
+      "cc-by": 94,
+      "cc-by-nc": 511,
+      "cc-by-nc-nd": 19,
+      "cc-by-nc-sa": 25,
+      "cc-by-sa": 6,
+      "cc0": 21,
+      "http://creativecommons.org/licenses/by-nc/4.0/": 38,
+      "http://creativecommons.org/licenses/by-sa/4.0/": 1,
+      "http://creativecommons.org/licenses/by/4.0/": 2,
+      "unknown": 730
+    },
+    "dataset_sha256": "c9e7d036888faeca5f3e2391fdeb8e3dc224d77c2f730173336fdf4aa9d8e159",
+    "manifest": "data/pest_images_manifest.json"
+  },
+  "text_dataset": {
+    "version": "v1_20261115",
+    "record_count": 56,
+    "latest_file": "training_data_20261115_182447.jsonl",
+    "latest_file_sha256": "1d04f955f3098fb2a046e1ee5f0aa290cc14a807898383945f763c4697544c7b",
+    "manifest": "data/text_training_manifest.json",
+    "provenance_csv": "data/ckan_scraped/training_data/PROVENANCE.csv"
+  }
+}

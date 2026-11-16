@@ -1,0 +1,5090 @@
+{
+  "metrics": {
+    "version": "v3",
+    "created_at": "2026-11-16T05:40:21.872286+00:00",
+    "accuracy": 0.9695290858725761,
+    "macro_f1": 0.9700744494367683,
+    "weighted_f1": 0.9701573456987164,
+    "top3_accuracy": 0.9916897506925207,
+    "n_train": 1849,
+    "n_test": 361,
+    "classes": [
+      "fall_armyworm",
+      "leaf_blight",
+      "bacterial_wilt",
+      "powdery_mildew",
+      "leaf_spot",
+      "rust",
+      "aphids",
+      "maize_streak",
+      "maize_lethal_necrosis",
+      "cassava_mosaic",
+      "cassava_brown_streak",
+      "tomato_leaf_miner",
+      "root_knot_nematode",
+      "red_spider_mite",
+      "striga",
+      "banana_bunchy_top",
+      "banana_weevil",
+      "fusarium_wilt",
+      "groundnut_rosette",
+      "grey_leaf_spot",
+      "stalk_borer",
+      "larger_grain_borer",
+      "whitefly",
+      "cassava_green_mite",
+      "cassava_mealybug",
+      "early_blight",
+      "late_blight",
+      "nitrogen_deficiency",
+      "maize_downy_mildew",
+      "healthy"
+    ],
+    "per_class": {
+      "fall_armyworm": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "leaf_blight": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "bacterial_wilt": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 12.0
+      },
+      "powdery_mildew": {
+        "precision": 0.7333333333333333,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.8148148148148148,
+        "support": 12.0
+      },
+      "leaf_spot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "rust": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 13.0
+      },
+      "aphids": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "maize_streak": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "maize_lethal_necrosis": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 12.0
+      },
+      "cassava_mosaic": {
+        "precision": 0.9090909090909091,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8695652173913043,
+        "support": 12.0
+      },
+      "cassava_brown_streak": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "tomato_leaf_miner": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "root_knot_nematode": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "red_spider_mite": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "striga": {
+        "precision": 0.8461538461538461,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.88,
+        "support": 12.0
+      },
+      "banana_bunchy_top": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "banana_weevil": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "fusarium_wilt": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "groundnut_rosette": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "grey_leaf_spot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "stalk_borer": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 12.0
+      },
+      "larger_grain_borer": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "whitefly": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "cassava_green_mite": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "cassava_mealybug": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "early_blight": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "late_blight": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "nitrogen_deficiency": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "maize_downy_mildew": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "healthy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 0.9695290858725761,
+      "macro avg": {
+        "precision": 0.9734287934287934,
+        "recall": 0.9694444444444446,
+        "f1-score": 0.9700744494367683,
+        "support": 361.0
+      },
+      "weighted avg": {
+        "precision": 0.9735023978791292,
+        "recall": 0.9695290858725761,
+        "f1-score": 0.9701573456987164,
+        "support": 361.0
+      }
+    }
+  },
+  "synthetic_test": {
+    "n": 361,
+    "accuracy": 0.9584487534626038,
+    "macro_f1": 0.9591525736743127,
+    "weighted_f1": 0.9591631287692953,
+    "top3_accuracy": 0.9667590027700831,
+    "classification_report": {
+      "fall_armyworm": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "leaf_blight": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "bacterial_wilt": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 12.0
+      },
+      "powdery_mildew": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8,
+        "support": 12.0
+      },
+      "leaf_spot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "rust": {
+        "precision": 0.9285714285714286,
+        "recall": 1.0,
+        "f1-score": 0.9629629629629629,
+        "support": 13.0
+      },
+      "aphids": {
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1-score": 0.96,
+        "support": 12.0
+      },
+      "maize_streak": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "maize_lethal_necrosis": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 12.0
+      },
+      "cassava_mosaic": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 12.0
+      },
+      "cassava_brown_streak": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "tomato_leaf_miner": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "root_knot_nematode": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "red_spider_mite": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "striga": {
+        "precision": 0.7333333333333333,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.8148148148148148,
+        "support": 12.0
+      },
+      "banana_bunchy_top": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "banana_weevil": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "fusarium_wilt": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "groundnut_rosette": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "grey_leaf_spot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "stalk_borer": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 12.0
+      },
+      "larger_grain_borer": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "whitefly": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "cassava_green_mite": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 12.0
+      },
+      "cassava_mealybug": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "early_blight": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "late_blight": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "nitrogen_deficiency": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "maize_downy_mildew": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 12.0
+      },
+      "healthy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 0.9584487534626038,
+      "macro avg": {
+        "precision": 0.9633943833943834,
+        "recall": 0.9583333333333335,
+        "f1-score": 0.9591525736743127,
+        "support": 361.0
+      },
+      "weighted avg": {
+        "precision": 0.9632979209156495,
+        "recall": 0.9584487534626038,
+        "f1-score": 0.9591631287692953,
+        "support": 361.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    "labels": [
+      "fall_armyworm",
+      "leaf_blight",
+      "bacterial_wilt",
+      "powdery_mildew",
+      "leaf_spot",
+      "rust",
+      "aphids",
+      "maize_streak",
+      "maize_lethal_necrosis",
+      "cassava_mosaic",
+      "cassava_brown_streak",
+      "tomato_leaf_miner",
+      "root_knot_nematode",
+      "red_spider_mite",
+      "striga",
+      "banana_bunchy_top",
+      "banana_weevil",
+      "fusarium_wilt",
+      "groundnut_rosette",
+      "grey_leaf_spot",
+      "stalk_borer",
+      "larger_grain_borer",
+      "whitefly",
+      "cassava_green_mite",
+      "cassava_mealybug",
+      "early_blight",
+      "late_blight",
+      "nitrogen_deficiency",
+      "maize_downy_mildew",
+      "healthy"
+    ],
+    "predictions": [
+      {
+        "text": "Mbeu yanga ikuonetsa izi: Kodikodi amene amasonkhana pa mphukira za chinangwa, kumanga masamba ndi kufooketsa chomera.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.9414822131403705
+      },
+      {
+        "text": "Please help: A mite that feeds on young cassava leaves causing mottling, browning and leaf fall, reducing yield.",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9863849584746242
+      },
+      {
+        "text": "Maize Lethal Necrosis. Maize Lethal Necrosis ni vuto la thanzi la chomera.",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.9620432650700546
+      },
+      {
+        "text": "mbeu yanga ili ndi Utumbe wofiira pansi pa masamba",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.7749828692508287
+      },
+      {
+        "text": "A fungal disease of tomatoes/potatoes showing target-like dark concentric rings on older leaves.",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.9132244652685179
+      },
+      {
+        "text": "Kodi Kangaude Wofiira imawononga mbeu bwanji? Kangaude ofiira ochepa omwe amayamwa madzi a m'masamba, kusiya utumbe ndi masamba achikasu.",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.9349750435595297
+      },
+      {
+        "text": "Ndikuona Mbozi okhwazidwa, masamba onyongoloka, kudya mbewu m'msuzi. Ndi matenda otani?",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.9710222453283572
+      },
+      {
+        "text": "What is Maize Stalk Borer? Caterpillars that bore into the maize stem, killing the central whorl ('dead heart') and weakening the stalk so it snaps.",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.941268379704739
+      },
+      {
+        "text": "Mlimi akuti: Udzu wodzilimbikira umene uli ndi mizu ya mbewu",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.7835305135121184
+      },
+      {
+        "text": "I see A soil-borne fungal disease (Panama disease) that yellows banana leaves, splits the pseudostem and rots the inside of the corm.. What disease is this?",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9728036421040317
+      },
+      {
+        "text": "Please help: A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves. Please advise.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.9555666393496159
+      },
+      {
+        "text": "Please help, the maize leaves show A fungal disease of maize producing rectangular grey-brown lesions parallel to the leaf veins, from the lower leaves upward.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9699152419184517
+      },
+      {
+        "text": "My maize shows these signs: Uniform yellowing of older leaves, stunted growth, pale green color spreading upward",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.9492857371288678
+      },
+      {
+        "text": "Question: A viral disease causing a mosaic pattern of light and dark green on cassava leaves, with leaf distortion and stunting.",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.9112657557632198
+      },
+      {
+        "text": "Ndikuona Mabala aofiira achiwiri, kukula koyera pansi pa masamba, imfa ya zomera mwadzidzidzi. Ndi matenda otani?",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.9747236642292547
+      },
+      {
+        "text": "Mlimi akuti: chimanga yanga ili ndi Mbozi okhwazidwa, masamba onyongoloka, kudya mbewu m'msuzi",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.9862372601338767
+      },
+      {
+        "text": "Mlimi akuti: Mabala akuluakulu a\u68d5\u8272 ndi chikasu mozungulira",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.615131555071782
+      },
+      {
+        "text": "Nditaya mbeu chifukwa cha Mabala pa Masamba. Poperani mankhwala, chotsani masamba odwala, ikani mbewu patali poyenera.",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.6001395046109491
+      },
+      {
+        "text": "Ndikuona kuwononga zipatso",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.5643295919974858
+      },
+      {
+        "text": "Chonde thandizani, masamba a mbeu akuonetsa Kuuma kwa masamba mwadzidzidzi, nthambi zikuwoneka ngati zili ndi madzi, madzi oyera akuyenda kuchoka pa nthambi",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.9769392718064709
+      },
+      {
+        "text": "I see broken chlorotic pattern",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.73813991839558
+      },
+      {
+        "text": "Please help: A soil-borne fungal disease (Panama disease) that yellows banana leaves, splits the pseudostem and rots the inside of the corm. What should I do?",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9694475227392298
+      },
+      {
+        "text": "Ndikufunsa za Nsabwe za Chinangwa; Mite imene imadya masamba atsopano a chinangwa kusiya mabala ndi kugwa kwa masamba.",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9489139583077771
+      },
+      {
+        "text": "Mbeu yanga ikuonetsa izi: Kachilombo kamene kamapangitsa mizu ya chinangwa kuwola ndi mabala a bulauni pa masamba.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.8816392423551836
+      },
+      {
+        "text": "Masamba a mbeu akusanduka achikasu ndipo ali ndi Nyongolotsi zazing'ono zomwe zimapanga miphika m'mizu, kufooketsa chomera.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9172994565632412
+      },
+      {
+        "text": "Farmer says: A mealybug that clusters on cassava shoots and leaf bases, curling leaves and stunting the plant. What should I do?",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.9564606627303743
+      },
+      {
+        "text": "Kodi Kodikodi/Dzodzwe wa Chinangwa imawononga chinangwa bwanji? Kodikodi amene amasonkhana pa mphukira za chinangwa, kumanga masamba ndi kufooketsa chomera.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.98447841150997
+      },
+      {
+        "text": "Ndikufunsa za Nsabwe (Aphids); Tizilombo tating'ono tachikasu kapena takuda timene timayamwa madzi a m'masamba, kusiya chizambwe.",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.9286495797306812
+      },
+      {
+        "text": "Mlimi akuti: chimanga yanga ili ndi Chiwawu cha chimanga chomwe chimapanga mabala a rectangle a bulauni mumitsempha ya masamba.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9340801580562541
+      },
+      {
+        "text": "Mankhwala a Nanzikambe wa Chimanga: Gwiritsani ntchito mbewu zolimba, pakanizani mbewu ndi mankhwala, musabzale pamwamba.",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.7898202015875883
+      },
+      {
+        "text": "Ndikuona Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.8101027047277151
+      },
+      {
+        "text": "My tomato shows these signs: Water-soaked gray-green lesions, white fuzzy growth on undersides, rapid plant death",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.9819454960011302
+      },
+      {
+        "text": "Mlimi akuti: ayambira pa masamba akale",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.440013770054531
+      },
+      {
+        "text": "A viral disease causing a mosaic pattern of light and dark green on cassava leaves, with leaf distortion and stunting.",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.9317454714030715
+      },
+      {
+        "text": "Mlimi akuti: Kodikodi amene amasonkhana pa mphukira za chinangwa",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.8647699400515317
+      },
+      {
+        "text": "Ndikufunsa za Matenda a Bunchy Top a Nthochi; Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba, kufooketsa chomera.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.9850169832113836
+      },
+      {
+        "text": "Mlimi akuti: nthochi yanga ili ndi Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba, kufooketsa chomera.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.9486053996123998
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Kaufiti",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.2711605387719871
+      },
+      {
+        "text": "What is Cassava Mealybug? A mealybug that clusters on cassava shoots and leaf bases, curling leaves and stunting the plant.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.975840573225142
+      },
+      {
+        "text": "A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves. Please advise.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.9697383949778856
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.18688180053885897
+      },
+      {
+        "text": "Mbeu yanga ikuonetsa izi: Kuwerengera kwa chikasu pa masamba akale, kuchula kochepa, renji yoyera imene imakwera",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.9490291244028719
+      },
+      {
+        "text": "Mbeu ya nthochi ikuvutika ndi Mbozi Zamzikhawo za Nthochi. Gwiritsani ntchito mbewu zoyera, poperani mankhwala pa zikhawo, khalani ndi misampha ya nthambi.",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.8001190021786291
+      },
+      {
+        "text": "Ndikuona Ntchentche zoyera zazing'ono zimene zimadzuka pansi pa masamba, chizambwe, khungu lakuda. Ndi matenda otani?",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.9725438234629142
+      },
+      {
+        "text": "The plant shows a mosaic or mottled pattern on the leaves",
+        "true": "maize_downy_mildew",
+        "pred": "cassava_mosaic",
+        "confidence": 0.6418327663323574
+      },
+      {
+        "text": "Farmer says: A viral disease of groundnuts spread by aphids causing yellow rosette-like stunted shoots and deformed pods.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.9656586123893414
+      },
+      {
+        "text": "Symptoms of Grey Leaf Spot: A fungal disease of maize producing rectangular grey-brown lesions parallel to the leaf veins, from the lower leaves upward.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9769074109745096
+      },
+      {
+        "text": "Kodi ndingatani ndi Matenda a Rosette a Mtedza pa mtedza?",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.544191364586567
+      },
+      {
+        "text": "A fungal disease causing large irregular brown lesions with yellow halos on leaves, often starting from the leaf tip and drying the leaf out.",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.9616999118264059
+      },
+      {
+        "text": "Nditaya mbeu chifukwa cha Kangaude Wofiira. Onjezerani chinyezi, gwiritsani ntchito mankhwala a mite, bweretsani mite odya anzawo.",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.6722414615102387
+      },
+      {
+        "text": "Chonde thandizani, masamba a chimanga akuonetsa Mutu wamkulu wamkati umafa, mphuno m'thupi la msuzi, zinyalala pamwamba pa zomera",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.9658487901561484
+      },
+      {
+        "text": "Question: Tiny white flies on leaf undersides that suck sap and excrete honeydew which grows sooty black mould.",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.9060980489007465
+      },
+      {
+        "text": "Matenda otani Mbozi Zooneka ngati Ntchemberezandonda? Mbozi yoopsa yomwe imadya chimanga, imasiya mabala a 'windowpane' pa masamba. Ikhoza kuwononga munda m'masiku ochepa.",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.9086757269429313
+      },
+      {
+        "text": "Farmer report: my crop has Fine webbing on leaf undersides, stippled/yellow leaves, tiny red mites visible",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.9868943185634608
+      },
+      {
+        "text": "The plant shows holes and chewing damage on the leaves",
+        "true": "fall_armyworm",
+        "pred": "stalk_borer",
+        "confidence": 0.5374084138401392
+      },
+      {
+        "text": "How do I treat Bacterial Wilt? Remove and destroy infected plants, sanitize tools, use resistant varieties.",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.45941745522724137
+      },
+      {
+        "text": "Mlimi akuti: Matenda a mafangasi a m'nthaka (Panama disease) omwe amachititsa masamba a nthochi kufota ndi kuwola kwa chikhawo",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9635433501258123
+      },
+      {
+        "text": "The plant shows holes and chewing damage on the leaves",
+        "true": "larger_grain_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.5374084138401392
+      },
+      {
+        "text": "Farmer report: sticky honeydew on leaves",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.4403227831264854
+      },
+      {
+        "text": "Small circular brown or dark spots with defined margins on leaves; several spots can merge and cause the leaf to dry out.",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.9613309582464233
+      },
+      {
+        "text": "Symptoms of Aphids: Small green or black insects clustering on new growth that suck sap, excrete sticky honeydew and curl the leaves.",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.9297240253833504
+      },
+      {
+        "text": "Banana Corm Weevil. The banana weevil bores tunnels through the banana corm, weakening the plant so it falls over easily.",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9835975616540087
+      },
+      {
+        "text": "I see Downy white/gray fungal growth on leaf undersides, systemic chlorosis, leaf rolling. What disease is this?",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.975344700744326
+      },
+      {
+        "text": "Mlimi akuti: imfa ya zomera mwadzidzidzi",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.6614303489248228
+      },
+      {
+        "text": "Ndi vuto lanji lomwe limachititsa Mphuno m'chakudya chosungidwa, fumbi wa zinyalala, mbewu zopanda mkate?",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.9577290524388347
+      },
+      {
+        "text": "Mbeu yanga ikuonetsa izi: Mabala ofiira, achikasu, kapena achikuda achiwiri pa masamba, fumbi wa mankhwala",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.9697658953113747
+      },
+      {
+        "text": "Kodi mankhwala a Nsabwe za Chinangwa ndi otani? Gwiritsani ntchito mbewu zolimba, poperani mankhwala a mite, bweretsani mite odya anzawo.",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.6579352480019024
+      },
+      {
+        "text": "Please help, the crop leaves show Microscopic worms that form galls (knots) on roots, stunting the plant and causing wilting despite adequate water.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9620548606034716
+      },
+      {
+        "text": "Mlimi akuti: madzi oyera akuyenda kuchoka pa nthambi",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.7545492506421558
+      },
+      {
+        "text": "Masamba ali ndi Mphuno m'chakudya chosungidwa, fumbi wa zinyalala, mbewu zopanda mkate",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.9845529760936934
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Mphuno m'chakudya chosungidwa, fumbi wa zinyalala, mbewu zopanda mkate",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.973135674072594
+      },
+      {
+        "text": "Question: Microscopic worms that form galls (knots) on roots, stunting the plant and causing wilting despite adequate water.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9767289954120995
+      },
+      {
+        "text": "A combined viral disease that yellows and then kills maize plants from the leaf tips down within weeks.",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.9709470676657759
+      },
+      {
+        "text": "Ndi vuto lanji lomwe limachititsa Kuwerengera kwa chikasu pa masamba akale, kuchula kochepa, renji yoyera imene imakwera?",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.9351254774724005
+      },
+      {
+        "text": "Farmer report: my crop has Large irregular brown lesions with yellow halos, leaf drying from tips",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.9597286454834603
+      },
+      {
+        "text": "The crop looks healthy with green, uniform leaves and no spots. What should I do?",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9549767197278485
+      },
+      {
+        "text": "Nditaya mbeu chifukwa cha Ntchentche Zoyera (Skuwuwu/Nyezi). Gwiritsani ntchito misampha yachikaso, poperani sopo wachiwo, bweretsani tizilombo tathu.",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.8001456985211604
+      },
+      {
+        "text": "Masamba ali ndi Udzu wodzilimbikira umene uli ndi mizu ya mbewu, chikasu/kuuma kwa mbewu, kuchula kochepa",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.9741004692983825
+      },
+      {
+        "text": "Masamba a mbeu akusanduka achikasu ndipo ali ndi Chophimba choyera chofanana ndi fumbi pa masamba, masamba akung'ambika, kuchula kochepa",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.9424574968614763
+      },
+      {
+        "text": "Ndikuona Nyongolotsi zazing'ono zomwe zimapanga miphika m'mizu, kufooketsa chomera.. Ndi matenda otani?",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9376201987129569
+      },
+      {
+        "text": "Farmer report: my crop has Small circular brown or dark spots with defined margins, may have concentric rings",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.9470729200952401
+      },
+      {
+        "text": "Ndikufunsa za Chikanga cha Chimanga; Kachilombo ka virus kamene kamapangitsa mizere yachikasu pamodzi ndi mitsempha ya masamba a chimanga.",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.8876755985850389
+      },
+      {
+        "text": "Mlimi wina akuti mbeu yake ili ndi Mabala ang'onoang'ono a\u68d5\u8272 kapena akuda ndi malire owoneka, angakhale ndi magulu ozungulira",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.9669742982221572
+      },
+      {
+        "text": "Mankhwala a Chiwawu cha Tomato (Chuku/Nguwi/Nkhungu/Chikukuyi): Poperani mankhwala a copper, wonongani zomera zodwala, musathirire pamwamba.",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.8362367388197675
+      },
+      {
+        "text": "Mlimi akuti: Chizindikiro cha khate cha chikasu ndi chakuda pa masamba",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.6846412546242322
+      },
+      {
+        "text": "A fungal disease of maize producing rectangular grey-brown lesions parallel to the leaf veins, from the lower leaves upward.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9846373243759035
+      },
+      {
+        "text": "Matenda otani Kodikodi/Dzodzwe wa Chinangwa? Kodikodi amene amasonkhana pa mphukira za chinangwa, kumanga masamba ndi kufooketsa chomera.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.9884318760856851
+      },
+      {
+        "text": "Ndikuona Mutu wamkulu wamkati umafa",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.6497327206277803
+      },
+      {
+        "text": "Mankhwala a Mabala pa Masamba: Poperani mankhwala, chotsani masamba odwala, ikani mbewu patali poyenera.",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.68829946281383
+      },
+      {
+        "text": "Mlimi wina akuti chimanga yake ili ndi Mbozi okhwazidwa, masamba onyongoloka, kudya mbewu m'msuzi",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.9719176562968508
+      },
+      {
+        "text": "Please help: A combined viral disease that yellows and then kills maize plants from the leaf tips down within weeks.",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.9590398169392459
+      },
+      {
+        "text": "Mlimi akuti: kuchula kochepa",
+        "true": "striga",
+        "pred": "powdery_mildew",
+        "confidence": 0.3561695869051474
+      },
+      {
+        "text": "How do I treat Banana Bunchy Top Disease? Remove and destroy infected plants, use virus-free suckers, control aphids.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.5632922881324679
+      },
+      {
+        "text": "Crop problem: Sudden wilting of leaves, stems appear water-soaked, sticky white ooze from cut stems",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.9821285451605583
+      },
+      {
+        "text": "Chonde thandizani, masamba a chimanga akuonetsa Kuwerengera kwa chikasu pa masamba akale, kuchula kochepa, renji yoyera imene imakwera",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.93926616561566
+      },
+      {
+        "text": "What is Leaf Spot? Small circular brown or dark spots with defined margins on leaves; several spots can merge and cause the leaf to dry out.",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.9560813488164146
+      },
+      {
+        "text": "Chonde thandizani, masamba a mbeu akuonetsa Utumbe wofiira pansi pa masamba, masamba achikasu ndi mabala, kangaude ofiira ang'onoang'ono",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.9701016044068284
+      },
+      {
+        "text": "Zizindikiro za Matenda a Bunchy Top a Nthochi: Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba, kufooketsa chomera.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.9836209160516837
+      },
+      {
+        "text": "I see Small circular brown or dark spots with defined margins",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.9113568122363785
+      },
+      {
+        "text": "Farmer report: Fine webbing on leaf undersides",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.6558685024197449
+      },
+      {
+        "text": "Question: A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.971222783220211
+      },
+      {
+        "text": "Please help: No disease or pest damage is visible on this plant. What should I do?",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9382725269673037
+      },
+      {
+        "text": "A viral disease causing a mosaic pattern of light and dark green on cassava leaves, with leaf distortion and stunting. What should I do?",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.9030622220299879
+      },
+      {
+        "text": "Report: A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.9783625435066285
+      },
+      {
+        "text": "Question: Not a disease but a nutrient shortage: older leaves turn uniformly yellow as the plant lacks nitrogen for growth.",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.8836075615401041
+      },
+      {
+        "text": "Mankhwala a Matenda a Bunchy Top a Nthochi: Chotsani ndikuwononga nthochi zodwala, gwiritsani nthochi zopanda virus, thanthweza nsabwe.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.8585096648261806
+      },
+      {
+        "text": "Farmer says: A fungal disease of maize producing rectangular grey-brown lesions parallel to the leaf veins, from the lower leaves upward.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9771122604134957
+      },
+      {
+        "text": "Zizindikiro za Chiwawu cha Chimanga: Chiwawu cha chimanga chomwe chimapanga mabala a rectangle a bulauni mumitsempha ya masamba.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9600807296527716
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Nsabwe za Chinangwa",
+        "true": "cassava_green_mite",
+        "pred": "aphids",
+        "confidence": 0.17162492358144854
+      },
+      {
+        "text": "I see Microscopic worms that form galls (knots) on roots",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.8043652580980033
+      },
+      {
+        "text": "Zizindikiro za Kaufiti: Udzu wa kaufiti umene umayamwa madzi ndi zakudya kuchokera m'mizu ya chimanga, kufooketsa mbewu.",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.9022634224511397
+      },
+      {
+        "text": "My crop has sticky honeydew",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.3642101371158891
+      },
+      {
+        "text": "Zizindikiro za Kafota/Kafote: Bakiteriya yomwe imapangitsa chomera kufota mwadzidzidzi; nthambi zimawoneka ngati zili ndi madzi.",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.9524246353727529
+      },
+      {
+        "text": "How do I treat Maize Streak Virus? Use resistant varieties, control leafhoppers, rogue infected plants.",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.42852195870798904
+      },
+      {
+        "text": "Question: Tiny red mites that suck sap from the underside of leaves, producing fine webbing and a stippled, yellowed leaf surface.",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.9282686027027106
+      },
+      {
+        "text": "A fast-spreading fungal disease causing water-soaked grey-green lesions and white fuzzy growth, killing plants within days. Please advise.",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.8869870416692812
+      },
+      {
+        "text": "Kachilombo ka mtedza kamene kamapangitsa mtedza kukhala wokhathali (rosette) ndi kufooka.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.9649905009153408
+      },
+      {
+        "text": "Mankhwala a Matenda a Rosette a Mtedza: Thanthwezani nsabwe, gwiritsani ntchito mbewu zolimba, khalani ndi mbewu zoyambilira, chotsani zomera zodwala.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.5034679768386822
+      },
+      {
+        "text": "Vuto la mbeu: Kuwerengera kwa chikasu pa masamba akale, kuchula kochepa, renji yoyera imene imakwera",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.965145759598707
+      },
+      {
+        "text": "Ndi vuto lanji lomwe limachititsa Mizere yachikasu yochepa imene imayendera ndi mitengo ya masamba?",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.8603958565347073
+      },
+      {
+        "text": "Vuto la mbeu: Mabala ang'onoang'ono a\u68d5\u8272 kapena akuda ndi malire owoneka, angakhale ndi magulu ozungulira",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.978381365068554
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Kangaude Wofiira",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.6001625688652019
+      },
+      {
+        "text": "Kodi ndingatani ndi Nsabwe (Aphids) pa mbeu?",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.45474133465029615
+      },
+      {
+        "text": "Kachilombo ka virus kamene kamapangitsa mizere yachikasu pamodzi ndi mitsempha ya masamba a chimanga.",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.7642623050901527
+      },
+      {
+        "text": "Mabala pa Masamba. Mabala ang'onoang'ono obulauni okhala ndi malire omveka pa masamba, masamba amawuma.",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.9404929495058537
+      },
+      {
+        "text": "Cassava Brown Streak Disease. A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.982580582788242
+      },
+      {
+        "text": "Small green or black insects clustering on new growth that suck sap, excrete sticky honeydew and curl the leaves. Please advise.",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.903981127929484
+      },
+      {
+        "text": "A fungal disease of maize producing rectangular grey-brown lesions parallel to the leaf veins, from the lower leaves upward. What should I do?",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9761172045507903
+      },
+      {
+        "text": "I see stippled/yellow leaves",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.7204597051636332
+      },
+      {
+        "text": "Ndi vuto lanji lomwe limachititsa Chizindikiro cha khate cha chikasu ndi chakuda pa masamba, masamba osokoneka, kuchula kochepa?",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.898397971579174
+      },
+      {
+        "text": "Question: A combined viral disease that yellows and then kills maize plants from the leaf tips down within weeks. What should I do?",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.9443461964708068
+      },
+      {
+        "text": "Microscopic worms that form galls (knots) on roots, stunting the plant and causing wilting despite adequate water. Please advise.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9742753490021246
+      },
+      {
+        "text": "Farmer says: A virus that produces narrow yellow streaks along the leaf veins; plants may be stunted and yields drop sharply. What should I do?",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.9281559705128484
+      },
+      {
+        "text": "Mlimi akuti: chizambwe pa masamba",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.3397743385922516
+      },
+      {
+        "text": "Masamba ali ndi Nyongolotsi zazing'ono zomwe zimapanga miphika m'mizu, kufooketsa chomera.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.968238862808281
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Kapuchi (Maize Stalkborer)",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.5578996331658762
+      },
+      {
+        "text": "Tiny white flies on leaf undersides that suck sap and excrete honeydew which grows sooty black mould.",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.9207974272986262
+      },
+      {
+        "text": "Mlimi akuti: chimanga yanga ili ndi Mizere yachikasu yochepa imene imayendera ndi mitengo ya masamba",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.9012130432640157
+      },
+      {
+        "text": "Pakati pa tomato, ndaona Mabala akuda ozungulira (ngati cholinga), ayambira pa masamba akale, chikasu mozungulira mabala",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.9777453825848005
+      },
+      {
+        "text": "Masamba ali ndi Mabala ofiira, achikasu, kapena achikuda achiwiri pa masamba, fumbi wa mankhwala",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.9715609739244927
+      },
+      {
+        "text": "Farmer report: stunted growth",
+        "true": "powdery_mildew",
+        "pred": "striga",
+        "confidence": 0.34238897486613856
+      },
+      {
+        "text": "Please help, the tomato leaves show The tomato leaf miner (Tuta absoluta) tunnels inside leaves creating winding 'mines', causing leaf blotches and fruit damage.",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.9700398139347348
+      },
+      {
+        "text": "Masamba a chimanga akusanduka achikasu ndipo ali ndi Mutu wamkulu wamkati umafa, mphuno m'thupi la msuzi, zinyalala pamwamba pa zomera",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.960919707512405
+      },
+      {
+        "text": "Masamba a mbeu akusanduka achikasu ndipo ali ndi Mabala ofiira, achikasu, kapena achikuda achiwiri pa masamba, fumbi wa mankhwala",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.9536439501848519
+      },
+      {
+        "text": "Farmer report: frass in whorl",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.5737340875436742
+      },
+      {
+        "text": "Farmer report: Water-soaked gray-green lesions",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.6761251500690539
+      },
+      {
+        "text": "Kodi mankhwala a Chikanga cha Chimanga ndi otani? Gwiritsani ntchito mbewu zolimba, thanthweza tizilombo toyambukitsa, chotsani zomera zodwala.",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.6843267325637978
+      },
+      {
+        "text": "A bacterial infection that causes sudden wilting of the whole plant; cut stems look water-soaked and may ooze white slime. What should I do?",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.8871223359002509
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Khate la Chinangwa",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.49061912350756515
+      },
+      {
+        "text": "Fusarium Wilt (Panama Disease). A soil-borne fungal disease (Panama disease) that yellows banana leaves, splits the pseudostem and rots the inside of the corm.",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9901886162583899
+      },
+      {
+        "text": "Maize Downy Mildew treatment: Use resistant varieties, treat seeds with fungicide, avoid dense planting.",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.4642034309537194
+      },
+      {
+        "text": "Farmer report: my maize has Dead heart (central whorl dies), bore holes in stems, frass at base of plant",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.9873699981536471
+      },
+      {
+        "text": "Ntchentche zoyera zazing'ono zomwe zimayamwa madzi ndi kusiya khungu lakuda pa masamba.",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.8706128200149545
+      },
+      {
+        "text": "Kodi mankhwala a Mbozi Zamzikhawo za Nthochi ndi otani? Gwiritsani ntchito mbewu zoyera, poperani mankhwala pa zikhawo, khalani ndi misampha ya nthambi.",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.6838747102214614
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Kuuma kwa masamba mwadzidzidzi, nthambi zikuwoneka ngati zili ndi madzi, madzi oyera akuyenda kuchoka pa nthambi",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.9825013391212875
+      },
+      {
+        "text": "Tomato Leaf Miner (Tuta Absoluta). The tomato leaf miner (Tuta absoluta) tunnels inside leaves creating winding 'mines', causing leaf blotches and fruit damage.",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.9871998722427794
+      },
+      {
+        "text": "A viral disease causing a mosaic pattern of light and dark green on cassava leaves, with leaf distortion and stunting. Please advise.",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.9061726241709501
+      },
+      {
+        "text": "What is Root Knot Nematode? Microscopic worms that form galls (knots) on roots, stunting the plant and causing wilting despite adequate water.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9814645915782187
+      },
+      {
+        "text": "I see Parasitic weed attached to host roots, yellowing/wilting of crop, stunted growth. What disease is this?",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.9401046565937297
+      },
+      {
+        "text": "Chomera chikuonetsa chikasu kapena mtundu wosazolowereka pa masamba",
+        "true": "nitrogen_deficiency",
+        "pred": "rust",
+        "confidence": 0.22984771036866722
+      },
+      {
+        "text": "Symptoms of Early Blight of Tomato: A fungal disease of tomatoes/potatoes showing target-like dark concentric rings on older leaves.",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.9380419651039139
+      },
+      {
+        "text": "Question: The banana weevil bores tunnels through the banana corm, weakening the plant so it falls over easily. What should I do?",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9683596612970127
+      },
+      {
+        "text": "Kodi ndingatani ndi Kafota wa Nthochi (Panama Disease) pa nthochi?",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.7041150043260602
+      },
+      {
+        "text": "Masamba a tomato akusanduka achikasu ndipo ali ndi Mabala aofiira achiwiri, kukula koyera pansi pa masamba, imfa ya zomera mwadzidzidzi",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.9659256933278371
+      },
+      {
+        "text": "What is Fusarium Wilt (Panama Disease)? A soil-borne fungal disease (Panama disease) that yellows banana leaves, splits the pseudostem and rots the inside of the corm.",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9881782207554589
+      },
+      {
+        "text": "A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.9795536551041258
+      },
+      {
+        "text": "Farmer report: stunted growth",
+        "true": "cassava_mosaic",
+        "pred": "striga",
+        "confidence": 0.34238897486613856
+      },
+      {
+        "text": "My crop has or reddish-brown pustules on leaf surfaces",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.7442987780130192
+      },
+      {
+        "text": "Pakati pa chimanga, ndaona Kukula kwa fumbi koyera/kachikazu pansi pa masamba, chikachu chachikulu, masamba akuzungulira",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.9802728879077646
+      },
+      {
+        "text": "Zomera za chimanga zikufota ndipo masamba ali ndi Chiwawu cha chimanga chomwe chimapanga mabala a rectangle a bulauni mumitsempha ya masamba.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.905867970788555
+      },
+      {
+        "text": "Farmer report: my maize has A combined viral disease that yellows and then kills maize plants from the leaf tips down within weeks.",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.9221368704068966
+      },
+      {
+        "text": "Mbozi zomwe zimalowa m'thupi la chimanga, kupha msuzi wapakati (dead heart) ndi kufooketsa thupi.",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.7524155174630457
+      },
+      {
+        "text": "My maize shows these signs: Dead heart (central whorl dies), bore holes in stems, frass at base of plant",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.9838144802063374
+      },
+      {
+        "text": "Mlimi wina akuti chinangwa yake ili ndi Mite imene imadya masamba atsopano a chinangwa kusiya mabala ndi kugwa kwa masamba.",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.8959358746696701
+      },
+      {
+        "text": "My crop has stems appear water-soaked",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.7468827620520939
+      },
+      {
+        "text": "Chiwawu cha fangasi chomwe chimapanga kukula koyera/kachikasu pansi pa masamba a chimanga.",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.6804615909284151
+      },
+      {
+        "text": "Nditaya mtedza chifukwa cha Matenda a Rosette a Mtedza. Thanthwezani nsabwe, gwiritsani ntchito mbewu zolimba, khalani ndi mbewu zoyambilira, chotsani zomera zodwala.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.5278172171945393
+      },
+      {
+        "text": "Chomera chikuonetsa kufota kwa nthambi ndi masamba",
+        "true": "maize_lethal_necrosis",
+        "pred": "bacterial_wilt",
+        "confidence": 0.3690597200136152
+      },
+      {
+        "text": "Matenda otani Kapuchi (Maize Stalkborer)? Mbozi zomwe zimalowa m'thupi la chimanga, kupha msuzi wapakati (dead heart) ndi kufooketsa thupi.",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.9281567880598488
+      },
+      {
+        "text": "mbeu yanga ili ndi Mabala akuluakulu a\u68d5\u8272 ndi chikasu mozungulira",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.6545431358926247
+      },
+      {
+        "text": "A mealybug that clusters on cassava shoots and leaf bases, curling leaves and stunting the plant.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.9850860645230007
+      },
+      {
+        "text": "Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba, kufooketsa chomera.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.9594179354650966
+      },
+      {
+        "text": "My maize has Downy white/gray fungal growth on leaf undersides",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.7880328490549485
+      },
+      {
+        "text": "A bacterial infection that causes sudden wilting of the whole plant; cut stems look water-soaked and may ooze white slime.",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.9100917395721169
+      },
+      {
+        "text": "Farmer report: my maize has A fungal disease of maize producing rectangular grey-brown lesions parallel to the leaf veins, from the lower leaves upward.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9712080468210617
+      },
+      {
+        "text": "I see leaf distortion",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.6429497506390626
+      },
+      {
+        "text": "Farmer report: A viral disease that makes new banana leaves bunched and upright at the top of the plant",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.8825348495429873
+      },
+      {
+        "text": "I see yellowing around lesions",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.4916129239962397
+      },
+      {
+        "text": "Kodi mankhwala a Kafota wa Nthochi (Panama Disease) ndi otani? Gwiritsani ntchito mbewu zolimba, onjezerani madzi oyenda, musasamutse nthaka yodwala.",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.8029608961438487
+      },
+      {
+        "text": "My crop shows these signs: Large irregular brown lesions with yellow halos, leaf drying from tips",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.9548991915596521
+      },
+      {
+        "text": "Zizindikiro za Ntchentche Zoyera (Skuwuwu/Nyezi): Ntchentche zoyera zazing'ono zomwe zimayamwa madzi ndi kusiya khungu lakuda pa masamba.",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.9428898884031135
+      },
+      {
+        "text": "I see Large irregular brown lesions with yellow halos, leaf drying from tips. What disease is this?",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.9514838855237026
+      },
+      {
+        "text": "Farmer report: White powdery coating on leaf surfaces",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.7340452734424664
+      },
+      {
+        "text": "Mankhwala a Nankafumbwe Wamkulu: Sunthani chimanga m'zithumba zotsekedwa, poperani mankhwala osungira, khalani ndi malo osungira oyera.",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.7760559068706812
+      },
+      {
+        "text": "A white powdery fungal coating on leaves and stems that reduces photosynthesis, curling leaves and stunting growth. What should I do?",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.8505714136424385
+      },
+      {
+        "text": "Nditaya mbeu chifukwa cha Dzimbiri. Poperani mankhwala, chotsani ziwalo za zomera zodwala, onjezerani mpweya.",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.6863758808415671
+      },
+      {
+        "text": "My banana has A soil-borne fungal disease (Panama disease) that yellows banana leaves",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.78112538133505
+      },
+      {
+        "text": "Farmer report: The tomato leaf miner (Tuta absoluta) tunnels inside leaves creating winding 'mines'",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.9071347582394635
+      },
+      {
+        "text": "mbeu yanga ili ndi Tizilombo tating'onoting'ono tachikasu kapena tawira tawunikira pa mbewu zatsopano",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.8526529337152109
+      },
+      {
+        "text": "I see A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves.. What disease is this?",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.9530373429276906
+      },
+      {
+        "text": "Mbeu yanga ikuonetsa izi: Nyongolotsi zazing'ono zomwe zimapanga miphika m'mizu, kufooketsa chomera.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9599724107203029
+      },
+      {
+        "text": "My tomato has causing leaf blotches and fruit damage",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.7567313649752756
+      },
+      {
+        "text": "I see leaf curling",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.49571048170861226
+      },
+      {
+        "text": "How do I treat Maize Stalk Borer? Apply insecticide to whorl, practice crop rotation, destroy crop residues.",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.5224616118337249
+      },
+      {
+        "text": "Zizindikiro za Nyongolotsi za M'mizu (Mandolo): Nyongolotsi zazing'ono zomwe zimapanga miphika m'mizu, kufooketsa chomera.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9858086695735995
+      },
+      {
+        "text": "Mbeu ya mtedza ikuvutika ndi Matenda a Rosette a Mtedza. Thanthwezani nsabwe, gwiritsani ntchito mbewu zolimba, khalani ndi mbewu zoyambilira, chotsani zomera zodwala.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.5473126090381102
+      },
+      {
+        "text": "My crop has curled leaves",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.6234814984781241
+      },
+      {
+        "text": "My maize has Parasitic weed attached to host roots",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.7504440875390818
+      },
+      {
+        "text": "Kusowa Nayitrojeni. Osati matenda koma kusowa kwa nayitrojeni: masamba akale amasanduka achikasu mofanana.",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.9434568191353403
+      },
+      {
+        "text": "Pakati pa chinangwa, ndaona Mite imene imadya masamba atsopano a chinangwa kusiya mabala ndi kugwa kwa masamba.",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9233212449403616
+      },
+      {
+        "text": "My tomato has rapid plant death",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.8356996011719179
+      },
+      {
+        "text": "Masamba a chinangwa akusanduka achikasu ndipo ali ndi Chizindikiro cha khate cha chikasu ndi chakuda pa masamba, masamba osokoneka, kuchula kochepa",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.952518899147604
+      },
+      {
+        "text": "Mbozi yoopsa yomwe imadya chimanga, imasiya mabala a 'windowpane' pa masamba. Ikhoza kuwononga munda m'masiku ochepa.",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.6547287669391264
+      },
+      {
+        "text": "My crop shows these signs: Tiny white flying insects on leaf undersides, sticky honeydew, sooty mold",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.9685815433550876
+      },
+      {
+        "text": "Kodi ndingatani ndi Nanzikambe wa Chimanga pa chimanga?",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.5485237629430317
+      },
+      {
+        "text": "chimanga yanga ili ndi fumbi wa zinyalala",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.39071975165972206
+      },
+      {
+        "text": "The leaves have Parasitic weed attached to host roots, yellowing/wilting of crop, stunted growth",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.9556558949073813
+      },
+      {
+        "text": "Mlimi akuti: chimanga yanga ili ndi",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.12000824364848839
+      },
+      {
+        "text": "A soil-borne fungal disease (Panama disease) that yellows banana leaves, splits the pseudostem and rots the inside of the corm. Please advise.",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9795226249579707
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba, kufooketsa chomera.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.898848680870391
+      },
+      {
+        "text": "A virus that produces narrow yellow streaks along the leaf veins; plants may be stunted and yields drop sharply.",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.959568103079203
+      },
+      {
+        "text": "Zizindikiro za Chiwawu cha Masamba: Chiwawu cha mafangasi chomwe chimapangitsa mabala akuluakulu a bulauni okhala ndi chikasu, masamba amawuma.",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.8995449528254318
+      },
+      {
+        "text": "I see Uniform yellowing of older leaves",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.7110021661183158
+      },
+      {
+        "text": "My maize has chewed leaf edges",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.727933221312836
+      },
+      {
+        "text": "Kodi mankhwala a Nankafumbwe Wamkulu ndi otani? Sunthani chimanga m'zithumba zotsekedwa, poperani mankhwala osungira, khalani ndi malo osungira oyera.",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.7425059705253427
+      },
+      {
+        "text": "Palibe zizindikiro za matenda pa mbeu; ikuwoneka bwino.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.20158391360868716
+      },
+      {
+        "text": "Mbeu yanga ikuonetsa izi: Chiwawu cha chimanga chomwe chimapanga mabala a rectangle a bulauni mumitsempha ya masamba.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.929250789610996
+      },
+      {
+        "text": "Vuto la mbeu: Mite imene imadya masamba atsopano a chinangwa kusiya mabala ndi kugwa kwa masamba.",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9427669614435777
+      },
+      {
+        "text": "Question: A mite that feeds on young cassava leaves causing mottling, browning and leaf fall, reducing yield. What should I do?",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9761631211927233
+      },
+      {
+        "text": "The leaves have The banana weevil bores tunnels through the banana corm, weakening the plant so it falls over easily.",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9733571131538974
+      },
+      {
+        "text": "Ndi vuto lanji lomwe limachititsa Tuta absoluta amalowa mkati mwa masamba a tomato kupanga mizere ya 'mines', kuwononga zipatso.?",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.932887213088985
+      },
+      {
+        "text": "Mankhwala a Kangaude Wofiira: Onjezerani chinyezi, gwiritsani ntchito mankhwala a mite, bweretsani mite odya anzawo.",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.7234092279510184
+      },
+      {
+        "text": "Question: A fungal disease of maize producing rectangular grey-brown lesions parallel to the leaf veins, from the lower leaves upward. Please advise.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9699611079581125
+      },
+      {
+        "text": "I see A soil-borne fungal disease (Panama disease) that yellows banana leaves",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.8419238508361512
+      },
+      {
+        "text": "A fungal disease producing downy white/grey growth on leaf undersides with systemic yellowing and leaf rolling. What should I do?",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.9255424361687196
+      },
+      {
+        "text": "Crop problem: White powdery coating on leaf surfaces, leaf curling, stunted growth",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.9473029205652699
+      },
+      {
+        "text": "Farmer report: fine powdery frass",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.5249797525435981
+      },
+      {
+        "text": "No disease or pest damage is visible on this plant.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9293555395284445
+      },
+      {
+        "text": "Mlimi akuti: masamba akuzungulira",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.42937103891743666
+      },
+      {
+        "text": "Powdery Mildew. A white powdery fungal coating on leaves and stems that reduces photosynthesis, curling leaves and stunting growth.",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.9225305611710177
+      },
+      {
+        "text": "Mankhwala a Nkhungu/Nguwi/Chuku: Poperani mankhwala a sulfa, onjezerani mpweya wabwino, musathirire pamwamba.",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.7574711788526038
+      },
+      {
+        "text": "Mlimi akuti: mbeu yanga ili ndi Nyongolotsi zazing'ono zomwe zimapanga miphika m'mizu, kufooketsa chomera.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9684095271963578
+      },
+      {
+        "text": "Please help: Leaves are green and vigorous, no wilting or holes. What should I do?",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9555522377052491
+      },
+      {
+        "text": "Mbeu ya chimanga ikuvutika ndi Kaufiti. Gwiritsani ntchito mbewu zokopa, chotsani udzu ndi manja, khalani ndi chimanga cholimba ndi kaufiti.",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.8320906324504246
+      },
+      {
+        "text": "Pakati pa mtedza, ndaona Kachilombo ka mtedza kamene kamapangitsa mtedza kukhala wokhathali (rosette) ndi kufooka.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.937661813958456
+      },
+      {
+        "text": "Ndi vuto lanji lomwe limachititsa Mbozi ya nthochi imabowola mkatikati mwa chikhawo cha nthochi, nthochi imagwa mosavuta.?",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9346522997241314
+      },
+      {
+        "text": "Kodi mankhwala a Chiwawu cha Masamba ndi otani? Popera mankhwala a copper fungicide, chotsa zinyalala, sinthani mbewu.",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.7074971560845503
+      },
+      {
+        "text": "chinangwa yanga ili ndi Mite imene imadya masamba atsopano a chinangwa kusiya mabala ndi kugwa kwa masamba",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9406489684405221
+      },
+      {
+        "text": "Farmer says: A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.9701593675546444
+      },
+      {
+        "text": "Not a disease but a nutrient shortage: older leaves turn uniformly yellow as the plant lacks nitrogen for growth. What should I do?",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.8666582624415234
+      },
+      {
+        "text": "The leaves have Large irregular brown lesions with yellow halos, leaf drying from tips",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.9696045552242094
+      },
+      {
+        "text": "Zizindikiro za Nsabwe (Aphids): Tizilombo tating'ono tachikasu kapena takuda timene timayamwa madzi a m'masamba, kusiya chizambwe.",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.9233347233052723
+      },
+      {
+        "text": "Farmer says: The crop looks healthy with green, uniform leaves and no spots. Please advise.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9448567894749891
+      },
+      {
+        "text": "Ndikuona Tuta absoluta amalowa mkati mwa masamba a tomato kupanga mizere ya 'mines', kuwononga zipatso.. Ndi matenda otani?",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.951553516667858
+      },
+      {
+        "text": "Chiwawu chofalikira mwachangu chomwe chimapangitsa mabala ofiira ndi kufa kwa zomera m'masiku ochepa.",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.37061481446031513
+      },
+      {
+        "text": "Mlimi akuti: Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.7797189687281918
+      },
+      {
+        "text": "The crop looks healthy with green, uniform leaves and no spots. Please advise.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9578377140119709
+      },
+      {
+        "text": "I see Dark concentric ring spots (target-like)",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.7122904217371614
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Ntchentche Zoyera (Skuwuwu/Nyezi)",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.733974748473803
+      },
+      {
+        "text": "Please help: No disease or pest damage is visible on this plant. Please advise.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9309473866079929
+      },
+      {
+        "text": "I see The banana weevil bores tunnels through the banana corm",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.8452854530525881
+      },
+      {
+        "text": "Ndikuona kumanga masamba ndi kufooketsa chomera",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.5364638830590422
+      },
+      {
+        "text": "Farmer report: sticky white ooze from cut stems",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.6815444067117965
+      },
+      {
+        "text": "I see A mite that feeds on young cassava leaves causing mottling, browning and leaf fall, reducing yield.. What disease is this?",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9747231349052352
+      },
+      {
+        "text": "mbeu yanga ili ndi kapena achikuda achiwiri pa masamba",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.7823804477972454
+      },
+      {
+        "text": "Ndikufunsa za Nankafumbwe Wamkulu; Nankafumbwe wamkulu wa nkhokwe amene amabowola chimanga chosungidwa, kuchisandutsa fumbi.",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.9333693848036783
+      },
+      {
+        "text": "Farmer report: my groundnut has A viral disease of groundnuts spread by aphids causing yellow rosette-like stunted shoots and deformed pods.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.9502213429684788
+      },
+      {
+        "text": "Farmer says: A fungal disease causing large irregular brown lesions with yellow halos on leaves, often starting from the leaf tip and drying the leaf out.",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.9505652229100149
+      },
+      {
+        "text": "Mbeu ya tomato ikuvutika ndi Chiwawu cha Tomato (Chuku/Nguwi/Nkhungu/Chikukuyi). Poperani mankhwala a copper, wonongani zomera zodwala, musathirire pamwamba.",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.8317165237517138
+      },
+      {
+        "text": "Kodi Matenda a Bunchy Top a Nthochi imawononga nthochi bwanji? Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba, kufooketsa chomera.",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.9811829824391626
+      },
+      {
+        "text": "A soil-borne fungal disease (Panama disease) that yellows banana leaves, splits the pseudostem and rots the inside of the corm.",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9860572480662342
+      },
+      {
+        "text": "Kodikodi/Dzodzwe wa Chinangwa. Kodikodi amene amasonkhana pa mphukira za chinangwa, kumanga masamba ndi kufooketsa chomera.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.9920244793767516
+      },
+      {
+        "text": "A fungal disease of tomatoes/potatoes showing target-like dark concentric rings on older leaves. Please advise.",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.8806222749183253
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Mutu wamkulu wamkati umafa, mphuno m'thupi la msuzi, zinyalala pamwamba pa zomera",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.9774676382574959
+      },
+      {
+        "text": "Please help, the tomato leaves show Dark concentric ring spots (target-like), starts on older leaves, yellowing around lesions",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.977907184901147
+      },
+      {
+        "text": "Maize Downy Mildew. A fungal disease producing downy white/grey growth on leaf undersides with systemic yellowing and leaf rolling.",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.9575970430809407
+      },
+      {
+        "text": "Mabala a orange, chikasu kapena bulauni pa masamba amene amatulutsa fumbi la spores.",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.8750955558062319
+      },
+      {
+        "text": "I see A viral disease causing brown",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.644721374745913
+      },
+      {
+        "text": "Mlimi akuti: Mite imene imadya masamba atsopano a chinangwa kusiya mabala ndi kugwa kwa masamba",
+        "true": "cassava_green_mite",
+        "pred": "cassava_green_mite",
+        "confidence": 0.9434295515383275
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Mabala ang'onoang'ono a\u68d5\u8272 kapena akuda ndi malire owoneka, angakhale ndi magulu ozungulira",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.977588663517379
+      },
+      {
+        "text": "The plant shows wilting stems and drooping leaves",
+        "true": "maize_lethal_necrosis",
+        "pred": "bacterial_wilt",
+        "confidence": 0.41061688543625074
+      },
+      {
+        "text": "I see Parasitic weed attached to host roots",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.7305689916906284
+      },
+      {
+        "text": "Farmer says: A mealybug that clusters on cassava shoots and leaf bases, curling leaves and stunting the plant.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.9736468395936981
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Dzimbiri",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.23198190153111212
+      },
+      {
+        "text": "Please help: No disease or pest damage is visible on this plant.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.924917006148298
+      },
+      {
+        "text": "chinangwa yanga ili ndi Chizindikiro cha khate cha chikasu ndi chakuda pa masamba",
+        "true": "cassava_mosaic",
+        "pred": "cassava_mosaic",
+        "confidence": 0.8863434709841014
+      },
+      {
+        "text": "I see Small green/black insects clustered on new growth",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.844311976825778
+      },
+      {
+        "text": "Nditaya chimanga chifukwa cha Mbozi Zooneka ngati Ntchemberezandonda. Gwiritsani ntchito mankhwala a mlombwa, khalani ndi mbewu zoyambilira, yang'anani minda nthawi zonse.",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.7620541280158748
+      },
+      {
+        "text": "Vuto la mbeu: Kachilombo ka mtedza kamene kamapangitsa mtedza kukhala wokhathali (rosette) ndi kufooka.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.9352914859028072
+      },
+      {
+        "text": "Farmer report: or reddish-brown pustules on leaf surfaces",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.6333224589933426
+      },
+      {
+        "text": "Ndikuona Kuwerengera kwa chikasu pa masamba akale",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.6727769632654966
+      },
+      {
+        "text": "Ndi vuto lanji lomwe limachititsa Kachilombo kamene kamapangitsa masamba atsopano a nthochi kusunga pamwamba, kufooketsa chomera.?",
+        "true": "banana_bunchy_top",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.8408513710270985
+      },
+      {
+        "text": "Ndikuona Ntchentche zoyera zazing'ono zimene zimadzuka pansi pa masamba",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.8430985272161665
+      },
+      {
+        "text": "Mbeu ya mbeu ikuvutika ndi Chiwawu cha Masamba. Popera mankhwala a copper fungicide, chotsa zinyalala, sinthani mbewu.",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.7335124575122626
+      },
+      {
+        "text": "Masamba a chimanga akusanduka achikasu ndipo ali ndi Mbozi okhwazidwa, masamba onyongoloka, kudya mbewu m'msuzi",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.9500635842548022
+      },
+      {
+        "text": "Please help, the cassava leaves show A viral disease causing brown, corky streaks and rot in cassava roots and yellow-brown blotches on leaves.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.9502185677924093
+      },
+      {
+        "text": "My crop has may have concentric rings",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.44195427981740326
+      },
+      {
+        "text": "My crop shows these signs: White powdery coating on leaf surfaces, leaf curling, stunted growth",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.9379289546551522
+      },
+      {
+        "text": "What is Leaf Blight? A fungal disease causing large irregular brown lesions with yellow halos on leaves, often starting from the leaf tip and drying the leaf out.",
+        "true": "leaf_blight",
+        "pred": "leaf_blight",
+        "confidence": 0.9576974678113462
+      },
+      {
+        "text": "Nditaya tomato chifukwa cha Chiwawu Choyambilira cha Tomato. Poperani mankhwala, sinthani mbewu, chotsani masamba odwala, gwiritsani ntchito matutira.",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.7921076579192565
+      },
+      {
+        "text": "Ndikuona masamba achikasu ndi mabala",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.4444871049929961
+      },
+      {
+        "text": "I see pale green color spreading upward",
+        "true": "nitrogen_deficiency",
+        "pred": "nitrogen_deficiency",
+        "confidence": 0.7450579658661153
+      },
+      {
+        "text": "Kodi ndingatani ndi Phephelu/Gulugufe wa M'tomato pa tomato?",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.642447883618516
+      },
+      {
+        "text": "Chiwawu cha Chimanga. Chiwawu cha chimanga chomwe chimapanga mabala a rectangle a bulauni mumitsempha ya masamba.",
+        "true": "grey_leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.9783758490270718
+      },
+      {
+        "text": "Question: A virus that produces narrow yellow streaks along the leaf veins; plants may be stunted and yields drop sharply.",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.9489351829123512
+      },
+      {
+        "text": "My maize shows these signs: Downy white/gray fungal growth on leaf undersides, systemic chlorosis, leaf rolling",
+        "true": "maize_downy_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.9723122134069616
+      },
+      {
+        "text": "Ndikuona Mbozi okhwazidwa",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.6837825983457454
+      },
+      {
+        "text": "Kodikodi amene amasonkhana pa mphukira za chinangwa, kumanga masamba ndi kufooketsa chomera.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.9780363651558218
+      },
+      {
+        "text": "Report: A combined viral disease that yellows and then kills maize plants from the leaf tips down within weeks.",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.9579125955107959
+      },
+      {
+        "text": "I see causing leaf blotches and fruit damage",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.6267809963752986
+      },
+      {
+        "text": "How do I treat Cassava Mealybug? Use biological control (parasitoid wasps), prune infested parts, apply neem oil.",
+        "true": "cassava_mealybug",
+        "pred": "cassava_mealybug",
+        "confidence": 0.5238660147706388
+      },
+      {
+        "text": "Chonde thandizani, masamba a chimanga akuonetsa Udzu wodzilimbikira umene uli ndi mizu ya mbewu, chikasu/kuuma kwa mbewu, kuchula kochepa",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.950982858066321
+      },
+      {
+        "text": "Farmer says: Leaves are green and vigorous, no wilting or holes. Please advise.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9477463113134414
+      },
+      {
+        "text": "mtedza yanga ili ndi Kachilombo ka mtedza kamene kamapangitsa mtedza kukhala wokhathali (rosette) ndi kufooka",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.9448704342766243
+      },
+      {
+        "text": "Vuto la mbeu: Mphuno m'chakudya chosungidwa, fumbi wa zinyalala, mbewu zopanda mkate",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.9806200737866491
+      },
+      {
+        "text": "Mlimi akuti: fumbi wa zinyalala",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.31741761177454286
+      },
+      {
+        "text": "I see may have concentric rings",
+        "true": "leaf_spot",
+        "pred": "leaf_spot",
+        "confidence": 0.544849597262719
+      },
+      {
+        "text": "Farmer says: No disease or pest damage is visible on this plant.",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.8994639721341138
+      },
+      {
+        "text": "I see Bore holes in stored grain, fine powdery frass, grain kernels hollowed out. What disease is this?",
+        "true": "larger_grain_borer",
+        "pred": "larger_grain_borer",
+        "confidence": 0.9728791420916976
+      },
+      {
+        "text": "Masamba a mtedza akusanduka achikasu ndipo ali ndi Kachilombo ka mtedza kamene kamapangitsa mtedza kukhala wokhathali (rosette) ndi kufooka.",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.9064147672226046
+      },
+      {
+        "text": "Mbeu yanga ikuonetsa izi: Tizilombo tating'onoting'ono tachikasu kapena tawira tawunikira pa mbewu zatsopano, chizambwe pa masamba, masamba akung'ambika",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.973408344246804
+      },
+      {
+        "text": "A virus that produces narrow yellow streaks along the leaf veins; plants may be stunted and yields drop sharply. What should I do?",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.9430898264874761
+      },
+      {
+        "text": "Chomera chikuonetsa nkhungu kapena fumbi pa chomera",
+        "true": "early_blight",
+        "pred": "powdery_mildew",
+        "confidence": 0.2612510507761839
+      },
+      {
+        "text": "Mlimi akuti: kuchula kochepa",
+        "true": "cassava_mosaic",
+        "pred": "powdery_mildew",
+        "confidence": 0.3561695869051474
+      },
+      {
+        "text": "Mlimi wina akuti mbeu yake ili ndi Mabala ofiira, achikasu, kapena achikuda achiwiri pa masamba, fumbi wa mankhwala",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.9687068774007804
+      },
+      {
+        "text": "Crop problem: A combined viral disease that yellows and then kills maize plants from the leaf tips down within weeks.",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.9509174819327723
+      },
+      {
+        "text": "I see stunted growth",
+        "true": "powdery_mildew",
+        "pred": "striga",
+        "confidence": 0.28664717176687465
+      },
+      {
+        "text": "Mankhwala a Mbozi Zooneka ngati Ntchemberezandonda: Gwiritsani ntchito mankhwala a mlombwa, khalani ndi mbewu zoyambilira, yang'anani minda nthawi zonse.",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.8034062169780258
+      },
+      {
+        "text": "Kodi ndingatani ndi Nsabwe za Chinangwa pa chinangwa?",
+        "true": "cassava_green_mite",
+        "pred": "cassava_mosaic",
+        "confidence": 0.19417865958708622
+      },
+      {
+        "text": "A bacterial infection that causes sudden wilting of the whole plant; cut stems look water-soaked and may ooze white slime.",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.9100917395721169
+      },
+      {
+        "text": "Chonde thandizani, masamba a tomato akuonetsa Mabala akuda ozungulira (ngati cholinga), ayambira pa masamba akale, chikasu mozungulira mabala",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.9695965421896153
+      },
+      {
+        "text": "Please help: The crop looks healthy with green, uniform leaves and no spots. What should I do?",
+        "true": "healthy",
+        "pred": "healthy",
+        "confidence": 0.9529516916286702
+      },
+      {
+        "text": "How do I treat Aphids? Use insecticidal soap, introduce beneficial insects (ladybugs), spray with water.",
+        "true": "aphids",
+        "pred": "aphids",
+        "confidence": 0.48394946799418387
+      },
+      {
+        "text": "The banana weevil bores tunnels through the banana corm, weakening the plant so it falls over easily.",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9842965607833127
+      },
+      {
+        "text": "Pakati pa nthochi, ndaona Mbozi ya nthochi imabowola mkatikati mwa chikhawo cha nthochi, nthochi imagwa mosavuta.",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9596773996479451
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Matenda a mafangasi a m'nthaka (Panama disease) omwe amachititsa masamba a nthochi kufota ndi kuwola kwa chikhawo.",
+        "true": "fusarium_wilt",
+        "pred": "fusarium_wilt",
+        "confidence": 0.9504871140413654
+      },
+      {
+        "text": "What is Striga (Witchweed)? Striga (witchweed) is a parasitic weed that attaches to maize roots, stealing nutrients and water and stunting the crop.",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.9341167194187743
+      },
+      {
+        "text": "Chonde, ndithandizeni ndi Matenda a Rosette a Mtedza",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.3758719997181969
+      },
+      {
+        "text": "Ndikuona Chophimba choyera chofanana ndi fumbi pa masamba",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.8138518620071257
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Ntchentche zoyera zazing'ono zimene zimadzuka pansi pa masamba, chizambwe, khungu lakuda",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.9678132422499756
+      },
+      {
+        "text": "Please help: The banana weevil bores tunnels through the banana corm, weakening the plant so it falls over easily. What should I do?",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9676636146553007
+      },
+      {
+        "text": "Masamba akuoneka ngati ali ndi Tuta absoluta amalowa mkati mwa masamba a tomato kupanga mizere ya 'mines', kuwononga zipatso.",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.9540071572679728
+      },
+      {
+        "text": "Matenda otani Chiwawu cha Tomato (Chuku/Nguwi/Nkhungu/Chikukuyi)? Chiwawu chofalikira mwachangu chomwe chimapangitsa mabala ofiira ndi kufa kwa zomera m'masiku ochepa.",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.8833785110419523
+      },
+      {
+        "text": "Mbeu ya chinangwa ikuvutika ndi Makwakwa a Chinangwa. Gwiritsani ntchito mbewu zolimba, khalani ndi nyengela zovomerezeka, sinthani mbewu.",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.8293343529346175
+      },
+      {
+        "text": "Farmer report: yellow",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.21379984322919002
+      },
+      {
+        "text": "I see Fine webbing on leaf undersides, stippled/yellow leaves, tiny red mites visible. What disease is this?",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.9785761526873539
+      },
+      {
+        "text": "Farmer report: Tiny white flying insects on leaf undersides",
+        "true": "whitefly",
+        "pred": "whitefly",
+        "confidence": 0.7604173750903999
+      },
+      {
+        "text": "Masamba a mbeu akusanduka achikasu ndipo ali ndi Kuuma kwa masamba mwadzidzidzi, nthambi zikuwoneka ngati zili ndi madzi, madzi oyera akuyenda kuchoka pa nthambi",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.9700563682431945
+      },
+      {
+        "text": "nthochi yanga ili ndi Mbozi ya nthochi imabowola mkatikati mwa chikhawo cha nthochi",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9120310016285476
+      },
+      {
+        "text": "Rust. Orange, yellow or reddish-brown pustules on leaf surfaces that burst open to release powdery spores.",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.9338949581409611
+      },
+      {
+        "text": "The banana weevil bores tunnels through the banana corm, weakening the plant so it falls over easily. Please advise.",
+        "true": "banana_weevil",
+        "pred": "banana_weevil",
+        "confidence": 0.9772921183761446
+      },
+      {
+        "text": "Tuta absoluta amalowa mkati mwa masamba a tomato kupanga mizere ya 'mines', kuwononga zipatso.",
+        "true": "tomato_leaf_miner",
+        "pred": "tomato_leaf_miner",
+        "confidence": 0.9806713389513064
+      },
+      {
+        "text": "Mbeu ya mbeu ikuvutika ndi Nkhungu/Nguwi/Chuku. Poperani mankhwala a sulfa, onjezerani mpweya wabwino, musathirire pamwamba.",
+        "true": "powdery_mildew",
+        "pred": "powdery_mildew",
+        "confidence": 0.778936606144591
+      },
+      {
+        "text": "Mankhwala a Maize Lethal Necrosis:",
+        "true": "maize_lethal_necrosis",
+        "pred": "maize_lethal_necrosis",
+        "confidence": 0.863559415803891
+      },
+      {
+        "text": "Pakati pa mbeu, ndaona Mabala ofiira, achikasu, kapena achikuda achiwiri pa masamba, fumbi wa mankhwala",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.964960157180133
+      },
+      {
+        "text": "tomato yanga ili ndi ayambira pa masamba akale",
+        "true": "early_blight",
+        "pred": "early_blight",
+        "confidence": 0.6756402225272339
+      },
+      {
+        "text": "Ndikuona zinyalala pamwamba pa zomera",
+        "true": "stalk_borer",
+        "pred": "stalk_borer",
+        "confidence": 0.6692644165356815
+      },
+      {
+        "text": "A fast-spreading fungal disease causing water-soaked grey-green lesions and white fuzzy growth, killing plants within days.",
+        "true": "late_blight",
+        "pred": "late_blight",
+        "confidence": 0.9097230399723251
+      },
+      {
+        "text": "Mlimi wina akuti chimanga yake ili ndi Mizere yachikasu yochepa imene imayendera ndi mitengo ya masamba",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.8823593637048796
+      },
+      {
+        "text": "The plant shows stunted or deformed growth",
+        "true": "tomato_leaf_miner",
+        "pred": "striga",
+        "confidence": 0.24113751687998586
+      },
+      {
+        "text": "The leaves have Microscopic worms that form galls (knots) on roots, stunting the plant and causing wilting despite adequate water.",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.9721164650368911
+      }
+    ]
+  },
+  "ckan_holdout": {
+    "n": 47,
+    "accuracy": 0.6170212765957447,
+    "macro_f1": 0.2711111111111111,
+    "weighted_f1": 0.6539007092198582,
+    "top3_accuracy": 0.7872340425531915,
+    "classification_report": {
+      "fall_armyworm": {
+        "precision": 1.0,
+        "recall": 0.7647058823529411,
+        "f1-score": 0.8666666666666667,
+        "support": 17.0
+      },
+      "leaf_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "bacterial_wilt": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "powdery_mildew": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "leaf_spot": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "rust": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "aphids": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "maize_streak": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 3.0
+      },
+      "maize_lethal_necrosis": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "cassava_mosaic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "cassava_brown_streak": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 3.0
+      },
+      "tomato_leaf_miner": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "root_knot_nematode": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "red_spider_mite": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "striga": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 2.0
+      },
+      "banana_bunchy_top": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "banana_weevil": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "fusarium_wilt": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "groundnut_rosette": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "grey_leaf_spot": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "stalk_borer": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "larger_grain_borer": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "whitefly": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "cassava_green_mite": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "cassava_mealybug": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "early_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "late_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "nitrogen_deficiency": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "maize_downy_mildew": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 0.6170212765957447,
+      "macro avg": {
+        "precision": 0.27777777777777773,
+        "recall": 0.2699346405228758,
+        "f1-score": 0.2711111111111111,
+        "support": 47.0
+      },
+      "weighted avg": {
+        "precision": 0.7092198581560283,
+        "recall": 0.6170212765957447,
+        "f1-score": 0.6539007092198582,
+        "support": 47.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "labels": [
+      "fall_armyworm",
+      "leaf_blight",
+      "bacterial_wilt",
+      "powdery_mildew",
+      "leaf_spot",
+      "rust",
+      "aphids",
+      "maize_streak",
+      "maize_lethal_necrosis",
+      "cassava_mosaic",
+      "cassava_brown_streak",
+      "tomato_leaf_miner",
+      "root_knot_nematode",
+      "red_spider_mite",
+      "striga",
+      "banana_bunchy_top",
+      "banana_weevil",
+      "fusarium_wilt",
+      "groundnut_rosette",
+      "grey_leaf_spot",
+      "stalk_borer",
+      "larger_grain_borer",
+      "whitefly",
+      "cassava_green_mite",
+      "cassava_mealybug",
+      "early_blight",
+      "late_blight",
+      "nitrogen_deficiency",
+      "maize_downy_mildew",
+      "healthy"
+    ],
+    "predictions": [
+      {
+        "text": "KAPUCHI (Maize Stalkborer - Busseola fusca) Kapuchi ndi mbozi zimene zimaononga mbewu za m\u2019gulu la chimanga monga chimanga, mapira, mchewere, mzimbe ndi zina. Kapuchiyu amabowola ndi kudya thunthu/map",
+        "true": "fall_armyworm",
+        "pred": "stalk_borer",
+        "confidence": 0.14745870004491382
+      },
+      {
+        "text": "MATENDA A KAFOTA WA NTHOCHI (bacterial Wilt) Matenda a kafota Kafota wa nthochi amayambitsidwa n di kachilombo kosaoneka ndimaso kotchedwa bakiteliya (bacteria). Kachilomboka kamaononga nthochi potsek",
+        "true": "bacterial_wilt",
+        "pred": "bacterial_wilt",
+        "confidence": 0.27262919137044345
+      },
+      {
+        "text": "MATENDA A CHISAKA CHA NTHOCHI (BANANA BUNCHY TOP DISEASE -BBTD) Matenda a chisaka cha nthochi Chisaka ndi matenda amodzi oopsa anthochi amene amayambitsidwa ndi kachirombo kosaoneka ndi maso kotchedwa",
+        "true": "aphids",
+        "pred": "banana_bunchy_top",
+        "confidence": 0.1991102646962411
+      },
+      {
+        "text": "NANKAFUMBWE WA NTHOCHI (Banana Weevil) Nankafumbwe wa nthochi Mbozi ya Nankafumbwe wa nthochi Pansi pa thunthu powonongedwa ndi nankafumbwe Thunthu lobowoledwa ndi nankafumbwe wa nthochi Nankafumbwe n",
+        "true": "banana_weevil",
+        "pred": "larger_grain_borer",
+        "confidence": 0.3302629970025545
+      },
+      {
+        "text": "CASSAVA BROWN STREAK DISEASE (CBSD) BACKGROUND AND SPREAD Cassava brown streak is caused by a virus that lives inside the leaves, stems, and roots of infected plants. The disease spreads through plant",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.16645265410102775
+      },
+      {
+        "text": "MATENDA A CHIKANGA/MAKWAKWA CHA CHINANGWA (Cassava Brown Streak Disease (CBSD)) MBIRI YA MATENDA A CHIKANGA CHA CHINANGWA Matenda a chikanga cha chinangwa amayambitsidwa ndi kachirombo (virus) komwe k",
+        "true": "cassava_brown_streak",
+        "pred": "maize_streak",
+        "confidence": 0.19956592229201803
+      },
+      {
+        "text": "CASSAVA GREEN MITE (Mononychellus tanajoa) BACKGROUND The cassava green mites (CGM) are very tiny, wingless, green to yellowish in color and can hardly be seen by the naked eyes. Adult CGM can have an",
+        "true": "cassava_mosaic",
+        "pred": "cassava_green_mite",
+        "confidence": 0.10613268131108183
+      },
+      {
+        "text": "NSABWE ZA CHINANGWA (Cassava green mite) Nsabwe za chinangwa ndi tizirombo timene timapezeka kunsi kwa masamba a chinangwa makamaka ang\u2019onoang\u2019ono. Nsabwezi zimaoneka zobiliwira zikakhala zazing\u2019ono n",
+        "true": "aphids",
+        "pred": "cassava_green_mite",
+        "confidence": 0.25456873764651083
+      },
+      {
+        "text": "EXTENSION CIRCULAR and Water Development Detain Bio-pesticide: An Entomopathogenic Biological Control of Fall Army worm on Maize Production in Malawi Introduction: Circular #.: 300126-170226-023- BPT ",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.1689445682255061
+      },
+      {
+        "text": "FACTSHEET Detain\u00aeMetarhizium anisopliae -icipe 7 for Biological Control of Fall Armyworm (Spodoptera frugiperda) in Malawi BACKGROUND Maize production continues to face serious threats from Fall Armyw",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.14485753990697192
+      },
+      {
+        "text": "Fall Armyworm Leaf Damage Irregularly-shaped holes and leaves eaten from the margins inwards Windowpanes \u2018Shot holes\u2019 of different shapes and patterns Extensively damaged growing point \u2018Shaved-off\u2019 le",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.1921194092638526
+      },
+      {
+        "text": "FALL ARMYWORM (Spodoptera frugiperda) The fall armyworm is a pest that mostly infests cereal crops such as maize, millet, sorghum, rice and sugarcane. The fall armyworm larva feed on maize leaves, sta",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.25042642215150457
+      },
+      {
+        "text": "Biology of Fall Armyworm (Spodoptera frugiperda) Fall armyworm (FAW) adults (moths) are active at night. Virgin female moths which are ready to mate emit a sex pheromone which males respond to. Female",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.10393990266428223
+      },
+      {
+        "text": "FALL ARMYWORM (Spodoptera frugiperda) FALL ARMYWORM (Spodoptera frugiperda) F A C T S H E E T Introduction Fall armyworm is a pest that mostly infests cereal crops such as maize, millet, sorghum, rice",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.2595558843592968
+      },
+      {
+        "text": "GREY LEAF SPOT (Cercospora zeae-maydis) Grey leaf spot is a fungal disease that affects maize. If not well managed, it can cause high losses. The disease survives on maize residues left on the soil su",
+        "true": "leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.24492470179850734
+      },
+      {
+        "text": "MATENDA A CHIWAWU CHA CHIMANGA (Grey leaf spot) Chiwawu cha chimanga ndi amodzi mwa matenda oononga kwambiri amene amapangitsa kuti alimi azikolola zochepa. Matendawa amagwira masamba komanso mapesi. ",
+        "true": "leaf_spot",
+        "pred": "grey_leaf_spot",
+        "confidence": 0.4485143473880879
+      },
+      {
+        "text": "by patches of wilted and dead plants. Control hoppers \u2022 Groundnut stores better in pods than as shelled nuts. by keeping groundnut fields free of weeds and clearing \u2022 Store dry pods in gunny bags in a",
+        "true": "groundnut_rosette",
+        "pred": "groundnut_rosette",
+        "confidence": 0.070537961485907
+      },
+      {
+        "text": "Identification of Fall Armyworm Adults Distinctive kidney- shaped mark on the front wing Faint kidney- shaped mark on the front wing Male (A) and female (B) adults on the same maize plant; male adult ",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.07982899142542789
+      },
+      {
+        "text": "Identification of Fall Armyworm (Spodoptera frugiperda) 1. Adults Figure 1.1: Male adult (moth) with wings spread out (A) (Photograph by Georg Goergen); male moth hiding inside maize plant funnel duri",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.14758845612177876
+      },
+      {
+        "text": "Main Diagnostic Features of Mature FAW Larvae Main diagnostic features of mature FAW larvae (Photographs: Peter Chinwada)",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.18784258331310968
+      },
+      {
+        "text": "MATENDA A NANZIKAMBE WA M\u2019CHIMANGA (Downy mildew) Nanzikambe ndi matenda oononga kwambiri amene amagwira masamba a chimanga. Matendawa amayambitsidwa ndi zinthu zooneka ngati chuku/Chikukuyi (water mo",
+        "true": "powdery_mildew",
+        "pred": "maize_downy_mildew",
+        "confidence": 0.27003939768683843
+      },
+      {
+        "text": "MAIZE RUST (Puccinia sorghi & P. polysora) DISEASE SIGNS AND SYMPTOMS Maize rust is caused by either or both Puccinia sorghi & P. polysora. Puccinia sorghi\u00a0(common rust) Circular pustules, powdery, br",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.17329719565614357
+      },
+      {
+        "text": "DZIMBIRI LA CHIMANGA (MAIZE RUST) ZIZINDIKIRO ZA MATENDAWA Dzimbiri la chimanga liripo la mitundu iwiri; Puccinia polysora ndi Puccinia sorghi. Mtundu oyamba (Puccinia polysora) Limakhala ndi totupa t",
+        "true": "rust",
+        "pred": "rust",
+        "confidence": 0.12651239240877762
+      },
+      {
+        "text": "MAIZE STREAK VIRUS DISEASE MSVD is caused by a tiny particle called a virus. This virus is transmitted by a small, light brown insect called a leaf hopper that lives on maize. The more leafhoppers the",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.15717860897035094
+      },
+      {
+        "text": "CHIKANGA CHA CHIMANGA (Maize streak virus disease) Chikanga ndi matenda amodzi oopsa a chimanga amene amayambitsidwa ndi kachirombo ka virus kamene kamafalitsidwa ndi ziwala. Matendawa amachuluka kwam",
+        "true": "maize_streak",
+        "pred": "maize_streak",
+        "confidence": 0.5290093388375938
+      },
+      {
+        "text": "Tassel Damage by FAW Common maize tassel and tassel stalk damage by FAW larvae (A-D) (Photographs: Peter Chinwada)",
+        "true": "fall_armyworm",
+        "pred": "stalk_borer",
+        "confidence": 0.18253104492342012
+      },
+      {
+        "text": "Management of Fall Armyworm Recognizing presence of the pest Monitoring Control Scout field twice a week. Look for eggs Squash any egg masses that you on leaf surfaces (upper and lower). come across. ",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.2557597297749562
+      },
+      {
+        "text": "NDONDOMEKO YA KACHULUKITSIDWE KA MBEWU YA NTHOCHI Unduna wa Malimidwe NDONDOMEKO YA KACHULUKITSIDWE KA MBEWU YA NTHOCHI Unduna wa Malimidwe NDONDOMEKO YA KACHULUKITSIDWE KA MBEWU YA NTHOCHI ZAM\u2019KATIMU",
+        "true": "aphids",
+        "pred": "striga",
+        "confidence": 0.1181785615120843
+      },
+      {
+        "text": "NYONGOLOTSI ZA M\u2019MIZU YA TOMATO (MANDOLO) ROOT-KNOT NEMATODE OF TOMATO Mizu ya tomato kutupa chifukwa cha nyongolosia, ndikupagisa kuti masamba a tomato Nyongolotsi za m\u2019mizu ya tomato ndi mtundu wa N",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.3736439611442859
+      },
+      {
+        "text": "ROOT-KNOT NEMATODE OF TOMATO Tomato roots swollen due to root-knot nematodesa, resulting in the drying of the tomato Root-knot nematodes (Meloidogyne spp.) survive in soil (in roots of weeds or as egg",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.15653103029226356
+      },
+      {
+        "text": "RED SPIDER MITE (Tetranychus evansi) WHAT IS IT? Spider mites are not insects, but a type of arachnid, relatives of spiders, ticks and scorpions. Tomato red spider mite (Tetranychus evansi) is a small",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.12515868366717436
+      },
+      {
+        "text": "KANGAUDE WOFIIRA WA MU TOMATO (RED SPIDER MITE) Kangaude ofiira ndi kachirombo kamene kamakonda kubisala kunsi/kuseri kwa masamba a tomato ndikumayamwa madzi ndi michere. Izi zimapangitsa kuti masamba",
+        "true": "red_spider_mite",
+        "pred": "red_spider_mite",
+        "confidence": 0.41263523790594897
+      },
+      {
+        "text": "ROOT-KNOT NEMATODE OF TOMATO Root-knot nematodes (Meloidogyne spp.) are destructive to tomatoes. Three species of root-knot nematodes, M. incognita, M. javanica, and M. hapla, are the most widely dist",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.16134825617639748
+      },
+      {
+        "text": "NYONGOLOTSI ZA M\u2019MIZU YA TOMATO (ROOT-KNOT NEMATODE OF TOMATO/MANDOLO) Nyongolotsi za m\u2019mizu ya tomato ndi mtundu wa Nyongolotsi zing\u2019onozing\u2019ono zomwe zimakhala mu nthaka, Nyongolotsizi zimalowa m\u2019mi",
+        "true": "root_knot_nematode",
+        "pred": "root_knot_nematode",
+        "confidence": 0.42867555963810205
+      },
+      {
+        "text": "Scouting for Fall Armyworm Why scout? 1. To determine pest presence. 2. To determine proportion of infested plants. 3. To determine numbers of eggs and/or larvae per plant or defined area of the field",
+        "true": "fall_armyworm",
+        "pred": "healthy",
+        "confidence": 0.0967730299900972
+      },
+      {
+        "text": "Scouting or Sampling for Fall Armyworm in Maize Fields Scouting objectives A FAW field scouting programme generally has six objectives: 1. To determine pest presence. 2. To determine incidence of infe",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.10342582709738704
+      },
+      {
+        "text": "Some Colour Variants of Fall Armyworm Larvae Some colour variants of FAW larvae (Photographs: Peter Chinwada)",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.23288175531208602
+      },
+      {
+        "text": "Stem Damage by FAW Maize stem tunnel entrance hole made by a FAW larva (A) and larvae inside stem tunnels (B & C) (Photographs: Peter Chinwada)",
+        "true": "fall_armyworm",
+        "pred": "stalk_borer",
+        "confidence": 0.14201976409509973
+      },
+      {
+        "text": "Cob Damage by FAW Maize cob damage by FAW larvae (A-D) (Photographs: Peter Chinwada)",
+        "true": "fall_armyworm",
+        "pred": "fall_armyworm",
+        "confidence": 0.11240069719065984
+      },
+      {
+        "text": "TOMATO LATE BLIGHT DISEASE (Phytophthora infestans) Late blight is a serious disease that mostly attacks tomato plants and other crops in the same family such as pepper, eggplant, and Irish potato. Th",
+        "true": "leaf_spot",
+        "pred": "late_blight",
+        "confidence": 0.2210961142014159
+      },
+      {
+        "text": "MATENDA A CHIWAWU/CHUKU/NGUWI/NKHUNGU/CHIKUKUYI CHA TOMATO Chiwawu ndi matenda oopsa amene amagwira kwambiri mbewu ya tomato komanso mbewu zina za m'gululi monga tsabola, mabilinganya ndi mbatata ya k",
+        "true": "powdery_mildew",
+        "pred": "late_blight",
+        "confidence": 0.31104143491432656
+      },
+      {
+        "text": "MATENDA A CHIWAWU/CHUKU/NGUWI/NKHUNGU/CHIKUKUYI CHA TOMATO Matenda a chiwawu mu masambaa ndi zipatsob za tomato Chiwawu ndi matenda oopsa amene amagwira kwambiri mbewu ya tomato komanso mbewu zina za ",
+        "true": "powdery_mildew",
+        "pred": "late_blight",
+        "confidence": 0.2975986440170121
+      },
+      {
+        "text": "and Water Development UNDERSTANDING AND MANAGING WHITEFLIES AND VIRAL DISEASES IN CASSAVA IN MALAWI A TRAINER\u2019S MANUAL UNDERSTANDING AND MANAGING WHITEFLIES AND VIRAL DISEASES IN CASSAVA IN MALAWI A T",
+        "true": "cassava_brown_streak",
+        "pred": "cassava_brown_streak",
+        "confidence": 0.13569469330726786
+      },
+      {
+        "text": "WHITE FLIES (Bemisia tabaci) Whiteflies are sucking insects, and their feeding habit is not very destructive. They are important because they transmit cassava mosaic and brown streak virus diseases. L",
+        "true": "cassava_mosaic",
+        "pred": "whitefly",
+        "confidence": 0.08372686458134733
+      },
+      {
+        "text": "NTCHENTCHE ZOYERA (Skuwuwu/Nyezi za mu Chinangwa) (Bemisia tabaci) Ntchentche za m\u2019chinangwa zimaononga mbewu poyamwa masamba komanso zimafalitsa matenda a chikanga komanso khate. Ntchentchezi ndi zaz",
+        "true": "maize_streak",
+        "pred": "whitefly",
+        "confidence": 0.22099900549462584
+      },
+      {
+        "text": "WITCH WEED/STRIGA (STRIGA SP.) Striga is a parasitic weed of different cereal species such as maize and sorghum, and grasses. There are three common Striga (witchweed) species in Malawi namely: Striga",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.35044315686980043
+      },
+      {
+        "text": "KAUFITI (Witch Weed- Striga Sp.) Kaufiti ndi udzu umene umaononga kwambiri mbewu ya chimanga. Udzuwu umakhala ndi maluwa a mitundu yosiyanasiyana monga yofiira, yachikasu, yoyera komanso ya pepo. Mizu",
+        "true": "striga",
+        "pred": "striga",
+        "confidence": 0.5888279452876918
+      }
+    ]
+  },
+  "config": {
+    "seed": 42,
+    "target_per_class": 60,
+    "max_per_class": 80,
+    "features": "word(1,2)+char_wb(3,5) tf-idf",
+    "classifier": "LogisticRegression(C=4.0, class_weight=balanced)"
+  }
+}

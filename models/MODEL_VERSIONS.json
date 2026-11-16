@@ -1,0 +1,254 @@
+{
+  "generated_at": "2026-11-15T18:32:47.636247+00:00",
+  "code_revision": "unknown",
+  "models": {
+    "pest_cnn": {
+      "version": "cnn-resnet18-20261115",
+      "architecture": "ResNet18 (ImageNet IMAGENET1K_V1) + custom 2-layer head",
+      "base_weights": "torchvision resnet18 IMAGENET1K_V1 (BSD-3-Clause)",
+      "num_classes": 30,
+      "training_config": {
+        "batch_size": 16,
+        "num_epochs": 20,
+        "freeze_epochs": 4,
+        "learning_rate": 0.001,
+        "unfreeze_learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "min_delta_loss": 0.0001,
+        "lr_scheduler_patience": 3,
+        "lr_scheduler_factor": 0.5,
+        "min_lr": 1e-06,
+        "num_workers": 2,
+        "torch_threads": 2,
+        "augment_factor": 3,
+        "seed": 42,
+        "version": "malawi_v3",
+        "use_amp": false,
+        "limit_per_class": 0,
+        "init_from": "/home/mlimi/htdocs/mlimi.cloud/models/pest_cnn/pest_cnn_best.pth"
+      },
+      "metrics": {
+        "best_val_acc": 0.3695652173913043,
+        "best_val_loss": 2.235176995396614,
+        "test_acc": 0.43722943722943725,
+        "num_train_images": 1085,
+        "num_val_images": 230,
+        "num_test_images": 231
+      },
+      "dataset": "data/pest_images_manifest.json",
+      "trained_on_total_images": 1546,
+      "training_dataset_note": "The production CNN was trained on the snapshot recorded in models/pest_cnn/training_metadata.json. The current dataset manifest may include later additions, including Malawian images.",
+      "current_dataset_total_images": 1546,
+      "current_dataset_malawian_images": 211,
+      "current_dataset_malawian_share_pct": 13.65,
+      "evaluation_notes": "The test split changed when Malawian images were added (231 test images vs 144 previously), so the previous 0.5417 figure is not comparable. The previous production model was re-evaluated on the new split: accuracy 0.3983 and top-3 0.5584. The current model scores 0.4372 and 0.6494 on the same split.",
+      "evaluation_report": "models/pest_cnn/evaluation_report.json",
+      "files": [
+        {
+          "name": "pest_cnn_best.pth",
+          "size_bytes": 45342995,
+          "sha256": "3c9c9f8f466885a7ce7113d2c36bcda418f708abe6e357a6f99ee83e5612314e",
+          "modified": "2026-11-15T16:28:02.500352+00:00"
+        },
+        {
+          "name": "pest_cnn_final.pth",
+          "size_bytes": 45343125,
+          "sha256": "bda17b244e521e3211deacdd2e3448f588b6cb30004e55271abfb71863116383",
+          "modified": "2026-11-15T16:56:31.598322+00:00"
+        },
+        {
+          "name": "pest_cnn_best_ep13_backup.pth",
+          "size_bytes": 45343125,
+          "sha256": "330093a6536715941eabf872bcbe94514bd9798866666ebce4efa63c55a49e9f",
+          "modified": "2026-08-03T02:39:38.248937+00:00"
+        },
+        {
+          "name": "training_metadata.json",
+          "size_bytes": 196456,
+          "sha256": "212b8ed7ab828cb2e8db939ff9dd7037cab38d1743edba7f5a511fcdfa2998b4",
+          "modified": "2026-11-15T16:56:38.501398+00:00"
+        },
+        {
+          "name": "training_history.json",
+          "size_bytes": 1171,
+          "sha256": "ae5ba9c2662be74b16a8b48dab94472056d7bb1430b4235704192f470bbe50fb",
+          "modified": "2026-11-15T16:56:38.502398+00:00"
+        },
+        {
+          "name": "evaluation_report.json",
+          "size_bytes": 17194,
+          "sha256": "38b1e3a2786a3fd879dabebe3d77afc4d703e883ad40502a1929eacba374b8cb",
+          "modified": "2026-11-15T16:56:38.505399+00:00"
+        }
+      ],
+      "licence": "Model weights: project-owned. Base ResNet18 ImageNet weights: BSD-3-Clause via torchvision.",
+      "limitations": "Small, imbalanced image set; 211 of 1546 images (13.65%) are explicitly Malawian-sourced; the rest are global. Held-out accuracy is reported in models/pest_cnn/evaluation_report.json. Use as a screening aid only."
+    },
+    "pest_diagnosis_multilingual": {
+      "version": "distilbert-multilingual-ckan-2026",
+      "architecture": "DistilBertForSequenceClassification",
+      "base_weights": "distilbert-base-multilingual-cased (Apache-2.0)",
+      "num_labels": 31,
+      "training_data": {
+        "source": "data/ckan_scraped/training_data",
+        "records_used": 23,
+        "note": "Only 23 records and 7 labels were present during fine-tuning; the evaluation set was 3 samples, so the reported accuracy is not meaningful."
+      },
+      "dataset": "data/text_training_manifest.json",
+      "evaluation_report": null,
+      "files": [
+        {
+          "name": "config.json",
+          "size_bytes": 2371,
+          "sha256": "4f5b978766d1d6f33c17ae3eeec15e770d61267b350d300cc1715a4ce8b07050",
+          "modified": "2026-06-26T07:51:06.102591+00:00"
+        },
+        {
+          "name": "model.safetensors",
+          "size_bytes": 541406588,
+          "sha256": "114a4090cedaf21571d46251d368b06d7ba7ea3faf7bd77bf2116598b2cd7d19",
+          "modified": "2026-06-26T07:51:06.799598+00:00"
+        },
+        {
+          "name": "tokenizer.json",
+          "size_bytes": 2919615,
+          "sha256": "d171a15df0bf95ecfb8dc022de30d68e5c911bd6b87a2a8d88df90e3a8180ede",
+          "modified": "2026-06-26T07:51:07.017601+00:00"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size_bytes": 323,
+          "sha256": "ad3dbfc8583907bc070fdba0afdc8f7c0dcdd933c02f233c545ad165c6ea881f",
+          "modified": "2026-06-26T07:51:06.992600+00:00"
+        },
+        {
+          "name": "training_args.bin",
+          "size_bytes": 5329,
+          "sha256": "1ed9b5e7d9e410b0a06dc6723910cdd6224da770ead45cc7a8601ad4ba4c57d9",
+          "modified": "2026-06-26T07:51:06.991601+00:00"
+        }
+      ],
+      "licence": "Base model: Apache-2.0. Fine-tuned weights: project-owned, but training text is CKAN MaDiPHS/MoA content under per-dataset licences (often non-commercial).",
+      "limitations": "Trained on 23 records; not loaded on demand in production because loading it OOM-killed the gunicorn worker."
+    },
+    "text_classifier": {
+      "version": "v2",
+      "architecture": "TF-IDF word(1,2) + char_wb(3,5) -> LogisticRegression",
+      "num_labels": 30,
+      "metrics": {
+        "accuracy": 0.9695290858725761,
+        "macro_f1": 0.9700744494367683,
+        "weighted_f1": 0.9701573456987164,
+        "top3_accuracy": 0.9916897506925207,
+        "n_train": 1850,
+        "n_test": 361
+      },
+      "dataset": "data/text_training_manifest.json",
+      "evaluation_report": "models/text_classifier/current/evaluation_report.json",
+      "files": [
+        {
+          "name": "ckan_holdout_report.json",
+          "size_bytes": 29023,
+          "sha256": "3d910a40dceec296addfc7ede22a9606c0d0b19520d4ff74822d191035e7954b",
+          "modified": "2026-11-15T18:31:26.123477+00:00"
+        },
+        {
+          "name": "corpus.jsonl.gz",
+          "size_bytes": 43477,
+          "sha256": "7591a00a416d83f2400e8eb32c3ed782e85cb62f6733b0cbc67b7d6298c7bb40",
+          "modified": "2026-11-15T18:31:26.139477+00:00"
+        },
+        {
+          "name": "evaluation_report.json",
+          "size_bytes": 142980,
+          "sha256": "9478d6c435f687874a8f4611f8d28351ba363ce9ca265cd8cf18d11484bde6a6",
+          "modified": "2026-11-15T18:31:26.122477+00:00"
+        },
+        {
+          "name": "label_map.json",
+          "size_bytes": 1331,
+          "sha256": "7911f87ea5f373ce7844d846fcc78aee57be891a4bf73568c0bc9c61be184f3f",
+          "modified": "2026-11-15T18:31:26.118477+00:00"
+        },
+        {
+          "name": "manifest.json",
+          "size_bytes": 1908,
+          "sha256": "6243d8d5c9334146bdbe076a4cc17d9782a0bfeeb53810238862fe5de530e8ce",
+          "modified": "2026-11-15T18:31:26.140477+00:00"
+        },
+        {
+          "name": "metrics.json",
+          "size_bytes": 5279,
+          "sha256": "5114d28bceb80597103dd9af03f2616720cd80c85e036d3018768cebbff8e954",
+          "modified": "2026-11-15T18:31:26.119477+00:00"
+        },
+        {
+          "name": "pipeline.joblib",
+          "size_bytes": 4356775,
+          "sha256": "3f7bcb284fe055b53b22e2a1dbef0abce39fa18c1dad3791d4461934a774c841",
+          "modified": "2026-11-15T18:31:26.117477+00:00"
+        }
+      ],
+      "licence": "Project-authored templates plus CKAN MaDiPHS/MoA text under per-dataset licences (often non-commercial). See PROVENANCE.csv.",
+      "limitations": "Most training rows are synthetic templates derived from the knowledge base; real-text holdout performance is much lower. Confidence is indicative."
+    },
+    "rule_based": {
+      "version": "code-unknown",
+      "architecture": "Heuristic colour/texture image rules + bilingual rule-based pest chat",
+      "training_data": "none (rules and knowledge base)",
+      "licence": "Project code and knowledge base; project-owned.",
+      "limitations": "Not a learned model. Image fallback confidence is capped at 0.75. The pest chat assistant is rule-based and does not call an LLM."
+    }
+  },
+  "datasets": {
+    "pest_images": {
+      "manifest": "data/pest_images_manifest.json",
+      "version": "v1_20261115",
+      "total_images": 1546,
+      "num_classes": 30,
+      "malawian_images": 211,
+      "malawian_share_pct": 13.65,
+      "country_counts": {
+        "Malawi": 211,
+        "unreported": 1335
+      },
+      "source_counts": {
+        "gbif_malawi": 41,
+        "inaturalist": 634,
+        "inaturalist_malawi": 71,
+        "madiphs_ckan_pictorial": 92,
+        "moa_malawi_faw_pictures": 7,
+        "unreported": 701
+      },
+      "licence_counts": {
+        "CC BY-NC (MaDiPHS / MoA Malawi)": 7,
+        "Creative Commons Attribution Share-Alike": 92,
+        "cc-by": 94,
+        "cc-by-nc": 511,
+        "cc-by-nc-nd": 19,
+        "cc-by-nc-sa": 25,
+        "cc-by-sa": 6,
+        "cc0": 21,
+        "http://creativecommons.org/licenses/by-nc/4.0/": 38,
+        "http://creativecommons.org/licenses/by-sa/4.0/": 1,
+        "http://creativecommons.org/licenses/by/4.0/": 2,
+        "unknown": 730
+      },
+      "dataset_sha256": "c9e7d036888faeca5f3e2391fdeb8e3dc224d77c2f730173336fdf4aa9d8e159"
+    },
+    "text_training": {
+      "manifest": "data/text_training_manifest.json",
+      "version": "v1_20261115",
+      "record_count": 56,
+      "latest_file_sha256": "1d04f955f3098fb2a046e1ee5f0aa290cc14a807898383945f763c4697544c7b"
+    }
+  },
+  "external_services_not_models": [
+    "PlantVillage API (gated off unless USE_EXTERNAL_PLANTVILLAGE=true)",
+    "OpenWeatherMap API",
+    "Open-Meteo API",
+    "NASA GIBS",
+    "OpenAI API (key placeholder, unused)"
+  ]
+}

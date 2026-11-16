@@ -1,0 +1,62 @@
+{
+  "version": "v3",
+  "created_at": "2026-11-16T05:40:21.872286+00:00",
+  "artifacts": {
+    "pipeline": "pipeline.joblib",
+    "metrics": "metrics.json",
+    "evaluation": "evaluation_report.json",
+    "labels": "label_map.json",
+    "corpus": "corpus.jsonl.gz"
+  },
+  "corpus": {
+    "synthetic_rows": 1802,
+    "ckan_rows": 47,
+    "ckan_source_file": "/home/mlimi/htdocs/mlimi.cloud/data/ckan_scraped/training_data/training_data.jsonl",
+    "languages": [
+      "eng",
+      "nya"
+    ],
+    "class_counts": {
+      "fall_armyworm": 60,
+      "leaf_blight": 60,
+      "bacterial_wilt": 60,
+      "powdery_mildew": 60,
+      "leaf_spot": 60,
+      "rust": 62,
+      "aphids": 60,
+      "maize_streak": 60,
+      "maize_lethal_necrosis": 60,
+      "cassava_mosaic": 60,
+      "cassava_brown_streak": 60,
+      "tomato_leaf_miner": 60,
+      "root_knot_nematode": 60,
+      "red_spider_mite": 60,
+      "striga": 60,
+      "banana_bunchy_top": 60,
+      "banana_weevil": 60,
+      "fusarium_wilt": 60,
+      "groundnut_rosette": 60,
+      "grey_leaf_spot": 60,
+      "stalk_borer": 60,
+      "larger_grain_borer": 60,
+      "whitefly": 60,
+      "cassava_green_mite": 60,
+      "cassava_mealybug": 60,
+      "early_blight": 60,
+      "late_blight": 60,
+      "nitrogen_deficiency": 60,
+      "maize_downy_mildew": 60,
+      "healthy": 60
+    }
+  },
+  "sources": [
+    "In-house pest/disease knowledge base (ai/services.py)",
+    "In-house visual-sign descriptions (ai/cnn_diagnoser.py, ai/cnn_pest_model.py)",
+    "CKAN MaDiPHS training exports (data/ckan_scraped/training_data)"
+  ],
+  "licence_notes": "In-house templates are project-authored. CKAN MaDiPHS/MoA advisory content is published under CC BY-NC-SA 4.0; it is used here for non-commercial model training and must retain attribution if redistributed.",
+  "environment": {
+    "python": "3.12.3",
+    "scikit_learn": "1.8.0"
+  }
+}

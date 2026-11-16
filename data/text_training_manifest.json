@@ -1,0 +1,133 @@
+{
+  "version": "v1_20261115",
+  "generated_at": "2026-11-15T18:32:47.636247+00:00",
+  "root": "data/ckan_scraped/training_data",
+  "latest_file": "training_data_20261115_182447.jsonl",
+  "latest_file_sha256": "1d04f955f3098fb2a046e1ee5f0aa290cc14a807898383945f763c4697544c7b",
+  "record_count": 56,
+  "label_counts": {
+    "aphids": 3,
+    "bacterial_wilt": 2,
+    "banana_weevil": 1,
+    "cassava_brown_streak": 3,
+    "cassava_mosaic": 2,
+    "caterpillars": 8,
+    "fall_armyworm": 17,
+    "groundnut_rosette": 1,
+    "leaf_spot": 3,
+    "maize_streak": 3,
+    "powdery_mildew": 3,
+    "red_spider_mite": 2,
+    "root_knot_nematode": 4,
+    "rust": 2,
+    "striga": 2
+  },
+  "language_counts": {
+    "eng": 34,
+    "nya": 22
+  },
+  "crop_counts": {
+    "banana": 6,
+    "bean": 2,
+    "cassava": 8,
+    "groundnut": 1,
+    "maize": 22,
+    "potato": 2,
+    "rice": 1,
+    "sweet_potato": 1,
+    "tomato": 9,
+    "unknown": 4
+  },
+  "dataset_counts": {
+    "african-armyworm-spodoptera-exempta": 2,
+    "african-maize-stalkborer-busseola-fusca": 2,
+    "bacterial-wilt-advisory": 1,
+    "banana-bunchy-top-disease-advisory": 1,
+    "banana-fusarium-wilt-advisory": 1,
+    "banana-weevil-advisory": 1,
+    "cassava-brown-streak-disease": 2,
+    "cassava-green-mite-mononychellus-tanajoa": 2,
+    "extension-circular-using-biopesticide-for-managing-faw": 3,
+    "fall-armyworm-leaf-damage": 1,
+    "fall-armyworm-life-cycle-stages": 1,
+    "fall-armyworm-spodoptera-frugiperda": 2,
+    "fall-armyworm-spodoptera-frugiperda-biology": 1,
+    "faw-fact-sheet": 1,
+    "grey-leaf-spot-cercospora-zeae-maydis": 2,
+    "guide-for-groundnut-production-in-malawi": 1,
+    "identification-of-fall-armyworm-adults": 1,
+    "identification-of-fall-armyworm-spodoptera-frugiperda": 1,
+    "main-diagnostic-features-of-mature-faw-larvae": 1,
+    "maize-downy-mildew-peronosclerospora-maydis": 1,
+    "maize-rust-puccinia-sorghi-p-polysora": 2,
+    "maize-streak-virus-disease-msvd": 2,
+    "maize-tassel-damage-by-faw": 1,
+    "management-of-fall-armyworm": 1,
+    "ndondomeko-ya-kachulukitsidwe-ka-mbewu-ya-nthochi": 1,
+    "nyongolotsi-za-m-mizu-ya-tomato-mandolo": 2,
+    "red-spider-mite": 2,
+    "root-knot-nematode-of-tomato": 2,
+    "scouting-for-fall-armyworm": 1,
+    "scouting-or-sampling-for-fall-armyworm-in-maize-fields": 1,
+    "some-colour-variants-of-fall-armyworm-larvae": 1,
+    "stem-damage-by-faw": 1,
+    "symptoms-of-cob-damage-by-faw": 1,
+    "tomato-late-blight-disease-phytophthora-infestans": 2,
+    "tomato-late-blight-disease-phytophthora-infestans-chichewa-version": 1,
+    "tomato-leaf-miner-tuta-absoluta": 2,
+    "understanding-and-managing-whiteflies-and-viral-diseases-in-cassava-in-malawi": 1,
+    "white-flies-bemisia-tabaci": 2,
+    "witch-weed-striga-striga-sp": 2
+  },
+  "all_export_files": [
+    {
+      "name": "training_data_20260624_111432.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20260624_112054.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20260624_112342.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20260624_114430.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20260624_115459.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20260624_115836.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20260626_075232.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20260626_094907.jsonl",
+      "size_bytes": 33565,
+      "sha256": "a96aad250b716dad42c918e7990888a3b967d720fa0b1fe1980c91a8fa95b321"
+    },
+    {
+      "name": "training_data_20261115_182447.jsonl",
+      "size_bytes": 102832,
+      "sha256": "1d04f955f3098fb2a046e1ee5f0aa290cc14a807898383945f763c4697544c7b"
+    }
+  ],
+  "collection_scripts": [
+    "ai/ckan_scraper.py (CKAN MaDiPHS API)"
+  ],
+  "licence_notes": "CKAN MaDiPHS/MoA datasets carry per-dataset CKAN licences; see data/ckan_scraped/training_data/PROVENANCE.csv. Many are non-commercial (e.g. CC BY-NC). Retain attribution and do not redistribute commercially without checking each dataset."
+}
